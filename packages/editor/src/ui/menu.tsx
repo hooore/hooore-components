@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import { Menu as MenuIcon } from "lucide-react";
-import { Button } from "./button";
-import { Popover, PopoverContent, PopoverTrigger } from "./popover";
+import { Menu as MenuIcon } from 'lucide-react'
+import { Button } from './button'
+import { Popover, PopoverContent, PopoverTrigger } from './popover'
 
 // TODO implement multiple fonts editor
 // const fonts = [
@@ -56,5 +56,5 @@ export default function Menu() {
         </p>
       </PopoverContent>
     </Popover>
-  );
+  )
 }

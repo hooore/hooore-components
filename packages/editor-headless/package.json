@@ -7,9 +7,7 @@
   "main": "dist/components/index.cjs",
   "module": "dist/components/index.js",
   "types": "dist/components/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "exports": {
     "./components": {
       "types": "./dist/components/index.d.ts",

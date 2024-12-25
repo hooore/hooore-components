@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import {
   EditorBubble,
   EditorCommand,
@@ -8,40 +8,40 @@ import {
   EditorContent,
   EditorRoot,
   type JSONContent,
-} from "@hooore/editor-headless/components";
+} from '@hooore/editor-headless/components'
 import {
   ImageResizer,
   handleCommandNavigation,
-} from "@hooore/editor-headless/extensions";
-import { defaultExtensions } from "./extensions";
+} from '@hooore/editor-headless/extensions'
+import { defaultExtensions } from './extensions'
 
 import {
   handleImageDrop,
   handleImagePaste,
-} from "@hooore/editor-headless/plugins";
-import { useState } from "react";
-import { uploadFn } from "./image-upload";
-import { ColorSelector } from "./selectors/color-selector";
-import { LinkSelector } from "./selectors/link-selector";
-import { NodeSelector } from "./selectors/node-selector";
-import { TextButtons } from "./selectors/text-buttons";
-import { slashCommand, suggestionItems } from "./slash-command";
-import { Separator } from "./ui/separator";
+} from '@hooore/editor-headless/plugins'
+import { useState } from 'react'
+import { uploadFn } from './image-upload'
+import { ColorSelector } from './selectors/color-selector'
+import { LinkSelector } from './selectors/link-selector'
+import { NodeSelector } from './selectors/node-selector'
+import { TextButtons } from './selectors/text-buttons'
+import { slashCommand, suggestionItems } from './slash-command'
+import { Separator } from './ui/separator'
 
-const extensions = [...defaultExtensions, slashCommand];
+const extensions = [...defaultExtensions, slashCommand]
 
 export type TailwindAdvancedEditorProps = {
-  initialValue?: JSONContent;
-  onChange: (value: JSONContent) => void;
-};
+  initialValue?: JSONContent
+  onChange: (value: JSONContent) => void
+}
 
 export const TailwindAdvancedEditor = ({
   initialValue,
   onChange,
 }: TailwindAdvancedEditorProps) => {
-  const [openNode, setOpenNode] = useState(false);
-  const [openColor, setOpenColor] = useState(false);
-  const [openLink, setOpenLink] = useState(false);
+  const [openNode, setOpenNode] = useState(false)
+  const [openColor, setOpenColor] = useState(false)
+  const [openLink, setOpenLink] = useState(false)
 
   return (
     <EditorRoot>
@@ -58,11 +58,11 @@ export const TailwindAdvancedEditor = ({
             handleImageDrop(view, event, moved, uploadFn),
           attributes: {
             class:
-              "editor-prose editor-prose-lg dark:editor-prose-invert prose-headings:editor-font-title editor-font-default focus:editor-outline-none editor-max-w-full",
+              'editor-prose editor-prose-lg dark:editor-prose-invert prose-headings:editor-font-title editor-font-default focus:editor-outline-none editor-max-w-full',
           },
         }}
         onUpdate={({ editor }) => {
-          onChange(editor.getJSON());
+          onChange(editor.getJSON())
         }}
         slotAfter={<ImageResizer />}
       >
@@ -93,7 +93,7 @@ export const TailwindAdvancedEditor = ({
         </EditorCommand>
         <EditorBubble
           tippyOptions={{
-            placement: "top",
+            placement: 'top',
           }}
           className="editor-border-muted bg-background editor-flex editor-w-fit editor-max-w-[90vw] editor-overflow-hidden editor-rounded-md editor-border editor-shadow-xl"
         >
@@ -109,7 +109,7 @@ export const TailwindAdvancedEditor = ({
         </EditorBubble>
       </EditorContent>
     </EditorRoot>
-  );
-};
+  )
+}
 
-export default TailwindAdvancedEditor;
+export default TailwindAdvancedEditor

@@ -1,7 +1,4 @@
-import {
-  EditorBubbleItem,
-  useEditor,
-} from "@hooore/editor-headless/components";
+import { EditorBubbleItem, useEditor } from '@hooore/editor-headless/components'
 import {
   Check,
   CheckSquare,
@@ -14,180 +11,180 @@ import {
   type LucideIcon,
   TextIcon,
   TextQuote,
-} from "lucide-react";
+} from 'lucide-react'
 
-import { Popover } from "@radix-ui/react-popover";
-import { Button } from "../ui/button";
-import { PopoverContent, PopoverTrigger } from "../ui/popover";
+import { Popover } from '@radix-ui/react-popover'
+import { Button } from '../ui/button'
+import { PopoverContent, PopoverTrigger } from '../ui/popover'
 
 export type SelectorItem = {
-  name: string;
-  icon: LucideIcon;
-  command: (editor: ReturnType<typeof useEditor>["editor"]) => void;
+  name: string
+  icon: LucideIcon
+  command: (editor: ReturnType<typeof useEditor>['editor']) => void
   isActive: (
-    editor: ReturnType<typeof useEditor>["editor"],
-  ) => boolean | undefined;
-};
+    editor: ReturnType<typeof useEditor>['editor'],
+  ) => boolean | undefined
+}
 
 const items: SelectorItem[] = [
   {
-    name: "Text",
+    name: 'Text',
     icon: TextIcon,
     command: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.chain().focus().clearNodes().run();
+      return editor.chain().focus().clearNodes().run()
     },
     // I feel like there has to be a more efficient way to do this – feel free to PR if you know how!
     isActive: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
       return (
-        editor.isActive("paragraph") &&
-        !editor.isActive("bulletList") &&
-        !editor.isActive("orderedList")
-      );
+        editor.isActive('paragraph') &&
+        !editor.isActive('bulletList') &&
+        !editor.isActive('orderedList')
+      )
     },
   },
   {
-    name: "Heading 1",
+    name: 'Heading 1',
     icon: Heading1,
     command: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
       return editor
         .chain()
         .focus()
         .clearNodes()
         .toggleHeading({ level: 1 })
-        .run();
+        .run()
     },
     isActive: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.isActive("heading", { level: 1 });
+      return editor.isActive('heading', { level: 1 })
     },
   },
   {
-    name: "Heading 2",
+    name: 'Heading 2',
     icon: Heading2,
     command: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
       return editor
         .chain()
         .focus()
         .clearNodes()
         .toggleHeading({ level: 2 })
-        .run();
+        .run()
     },
     isActive: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.isActive("heading", { level: 2 });
+      return editor.isActive('heading', { level: 2 })
     },
   },
   {
-    name: "Heading 3",
+    name: 'Heading 3',
     icon: Heading3,
     command: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
       return editor
         .chain()
         .focus()
         .clearNodes()
         .toggleHeading({ level: 3 })
-        .run();
+        .run()
     },
     isActive: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.isActive("heading", { level: 3 });
+      return editor.isActive('heading', { level: 3 })
     },
   },
   {
-    name: "To-do List",
+    name: 'To-do List',
     icon: CheckSquare,
     command: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.chain().focus().clearNodes().toggleTaskList().run();
+      return editor.chain().focus().clearNodes().toggleTaskList().run()
     },
     isActive: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.isActive("taskItem");
+      return editor.isActive('taskItem')
     },
   },
   {
-    name: "Bullet List",
+    name: 'Bullet List',
     icon: ListOrdered,
     command: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.chain().focus().clearNodes().toggleBulletList().run();
+      return editor.chain().focus().clearNodes().toggleBulletList().run()
     },
     isActive: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.isActive("bulletList");
+      return editor.isActive('bulletList')
     },
   },
   {
-    name: "Numbered List",
+    name: 'Numbered List',
     icon: ListOrdered,
     command: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.chain().focus().clearNodes().toggleOrderedList().run();
+      return editor.chain().focus().clearNodes().toggleOrderedList().run()
     },
     isActive: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.isActive("orderedList");
+      return editor.isActive('orderedList')
     },
   },
   {
-    name: "Quote",
+    name: 'Quote',
     icon: TextQuote,
     command: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.chain().focus().clearNodes().toggleBlockquote().run();
+      return editor.chain().focus().clearNodes().toggleBlockquote().run()
     },
     isActive: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.isActive("blockquote");
+      return editor.isActive('blockquote')
     },
   },
   {
-    name: "Code",
+    name: 'Code',
     icon: Code,
     command: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.chain().focus().clearNodes().toggleCodeBlock().run();
+      return editor.chain().focus().clearNodes().toggleCodeBlock().run()
     },
     isActive: (editor) => {
-      if (!editor) return;
+      if (!editor) return
 
-      return editor.isActive("codeBlock");
+      return editor.isActive('codeBlock')
     },
   },
-];
+]
 interface NodeSelectorProps {
-  open: boolean;
-  onOpenChange: (open: boolean) => void;
+  open: boolean
+  onOpenChange: (open: boolean) => void
 }
 
 export const NodeSelector = ({ open, onOpenChange }: NodeSelectorProps) => {
-  const { editor } = useEditor();
-  if (!editor) return null;
+  const { editor } = useEditor()
+  if (!editor) return null
   const activeItem = items.filter((item) => item.isActive(editor)).pop() ?? {
-    name: "Multiple",
-  };
+    name: 'Multiple',
+  }
 
   return (
     <Popover modal={true} open={open} onOpenChange={onOpenChange}>
@@ -211,8 +208,8 @@ export const NodeSelector = ({ open, onOpenChange }: NodeSelectorProps) => {
           <EditorBubbleItem
             key={item.name}
             onSelect={(editor) => {
-              item.command(editor);
-              onOpenChange(false);
+              item.command(editor)
+              onOpenChange(false)
             }}
             className="hover:editor-bg-accent editor-flex editor-cursor-pointer editor-items-center editor-justify-between editor-rounded-sm editor-px-2 editor-py-1 editor-text-sm"
           >
@@ -229,5 +226,5 @@ export const NodeSelector = ({ open, onOpenChange }: NodeSelectorProps) => {
         ))}
       </PopoverContent>
     </Popover>
-  );
-};
+  )
+}

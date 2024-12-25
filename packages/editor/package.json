@@ -6,9 +6,7 @@
   "main": "dist/advance-editor.cjs",
   "module": "dist/advance-editor.js",
   "types": "dist/advance-editor.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "exports": {
     ".": {
       "types": "./dist/advance-editor.d.ts",

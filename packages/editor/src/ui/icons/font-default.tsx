@@ -17,5 +17,5 @@ export default function FontDefault({ className }: { className?: string }) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }

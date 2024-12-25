@@ -1,4 +1,4 @@
 {
-  "*.{js,jsx,ts,tsx}": ["prettier --write"],
-  "*.{md,html,css}": ["prettier --write"]
+  "*.{js,jsx,ts,tsx}": ["biome lint --write", "biome format --write"],
+  "*.{md,html,css}": ["biome format --write"]
 }

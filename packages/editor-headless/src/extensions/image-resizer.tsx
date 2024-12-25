@@ -1,37 +1,37 @@
-import { useCurrentEditor } from "@tiptap/react";
-import type { FC } from "react";
-import Moveable from "react-moveable";
+import { useCurrentEditor } from '@tiptap/react'
+import type { FC } from 'react'
+import Moveable from 'react-moveable'
 
 export const ImageResizer: FC = () => {
-  const { editor } = useCurrentEditor();
+  const { editor } = useCurrentEditor()
 
-  if (!editor?.isActive("image")) return null;
+  if (!editor?.isActive('image')) return null
 
   const updateMediaSize = () => {
     const imageInfo = document.querySelector(
-      ".ProseMirror-selectednode",
-    ) as HTMLImageElement;
+      '.ProseMirror-selectednode',
+    ) as HTMLImageElement
     if (imageInfo) {
-      const selection = editor.state.selection;
+      const selection = editor.state.selection
       const setImage = editor.commands.setImage as (options: {
-        src: string;
-        width: number;
-        height: number;
-      }) => boolean;
+        src: string
+        width: number
+        height: number
+      }) => boolean
 
       setImage({
         src: imageInfo.src,
-        width: Number(imageInfo.style.width.replace("px", "")),
-        height: Number(imageInfo.style.height.replace("px", "")),
-      });
-      editor.commands.setNodeSelection(selection.from);
+        width: Number(imageInfo.style.width.replace('px', '')),
+        height: Number(imageInfo.style.height.replace('px', '')),
+      })
+      editor.commands.setNodeSelection(selection.from)
     }
-  };
+  }
 
   return (
     <Moveable
       target={
-        document.querySelector(".ProseMirror-selectednode") as HTMLDivElement
+        document.querySelector('.ProseMirror-selectednode') as HTMLDivElement
       }
       container={null}
       origin={false}
@@ -51,19 +51,19 @@ export const ImageResizer: FC = () => {
         // dist,
         delta,
       }) => {
-        if (delta[0]) target.style.width = `${width}px`;
-        if (delta[1]) target.style.height = `${height}px`;
+        if (delta[0]) target.style.width = `${width}px`
+        if (delta[1]) target.style.height = `${height}px`
       }}
       // { target, isDrag, clientX, clientY }: any
       onResizeEnd={() => {
-        updateMediaSize();
+        updateMediaSize()
       }}
       /* scalable */
       /* Only one of resizable, scalable, warpable can be used. */
       scalable={true}
       throttleScale={0}
       /* Set the direction of resizable */
-      renderDirections={["w", "e"]}
+      renderDirections={['w', 'e']}
       onScale={({
         target,
         // scale,
@@ -71,8 +71,8 @@ export const ImageResizer: FC = () => {
         // delta,
         transform,
       }) => {
-        target.style.transform = transform;
+        target.style.transform = transform
       }}
     />
-  );
-};
+  )
+}
