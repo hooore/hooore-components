@@ -1,0 +1,3 @@
+[submodule "hooore-packages"]
+	path = hooore-packages
+	url = https://github.com/hooore/hooore-packages

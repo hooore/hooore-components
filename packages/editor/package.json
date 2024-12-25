@@ -1,0 +1,55 @@
+{
+  "name": "editor",
+  "version": "1.0.0",
+  "description": "Modified from https://github.com/steven-tey/novel",
+  "sideEffects": false,
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup && tailwindcss -i ./src/styles.css -o ./dist/index.css",
+    "dev": "tailwindcss -i ./src/styles.css -o ./dist/index.css --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@hooore/utils": "link:../../hooore-packages/packages/utils",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-popover": "^1.0.6",
+    "@radix-ui/react-scroll-area": "^1.0.5",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "cmdk": "^0.2.1",
+    "novel": "0.5.0",
+    "react": "^18.3.1",
+    "sonner": "^1.7.0"
+  },
+  "devDependencies": {
+    "@hooore/typescript-config": "link:../../hooore-packages/packages/typescript-config",
+    "@types/react": "^18.3.5",
+    "autoprefixer": "^10.4.17",
+    "tailwindcss": "^3.4.10",
+    "tsup": "^8.3.5"
+  },
+  "dependencies": {
+    "eventsource-parser": "^0.1.0",
+    "highlight.js": "^11.9.0",
+    "lowlight": "^3.1.0",
+    "lucide-react": "^0.244.0",
+    "react-markdown": "^8.0.7",
+    "tippy.js": "^6.3.7",
+    "ts-pattern": "^5.0.6",
+    "use-debounce": "^9.0.3"
+  }
+}
