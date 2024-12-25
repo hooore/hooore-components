@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "Modified from https://github.com/steven-tey/novel",
   "sideEffects": false,
-  "main": "dist/advance-editor.cjs",
-  "module": "dist/advance-editor.js",
+  "main": "dist/advance-editor.js",
+  "module": "dist/advance-editor.mjs",
   "types": "dist/advance-editor.d.ts",
   "files": ["dist"],
   "exports": {
     ".": {
       "types": "./dist/advance-editor.d.ts",
-      "import": "./dist/advance-editor.js",
-      "require": "./dist/advance-editor.cjs"
+      "import": "./dist/advance-editor.mjs",
+      "require": "./dist/advance-editor.js"
     },
     "./styles.css": "./dist/index.css"
   },
