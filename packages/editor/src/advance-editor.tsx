@@ -8,11 +8,17 @@ import {
   EditorContent,
   EditorRoot,
   type JSONContent,
-} from "novel";
-import { ImageResizer, handleCommandNavigation } from "novel/extensions";
+} from "@hooore/editor-headless/components";
+import {
+  ImageResizer,
+  handleCommandNavigation,
+} from "@hooore/editor-headless/extensions";
 import { defaultExtensions } from "./extensions";
 
-import { handleImageDrop, handleImagePaste } from "novel/plugins";
+import {
+  handleImageDrop,
+  handleImagePaste,
+} from "@hooore/editor-headless/plugins";
 import { useState } from "react";
 import { uploadFn } from "./image-upload";
 import { ColorSelector } from "./selectors/color-selector";

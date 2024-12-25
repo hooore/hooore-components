@@ -1,8 +1,10 @@
 {
-  "name": "@hooore/components",
+  "name": "hooore-components",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build:editor": "pnpm --filter \"@hooore/editor\" run build",
+    "build:editor-headless": "pnpm --filter \"@hooore/editor-headless\" run build",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
     "prepare": "husky"
   },

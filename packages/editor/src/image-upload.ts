@@ -1,4 +1,4 @@
-import { createImageUpload } from "novel/plugins";
+import { createImageUpload } from "@hooore/editor-headless/plugins";
 import { toast } from "sonner";
 
 const onUpload = (file: File) => {

@@ -1,4 +1,8 @@
 import {
+  EditorBubbleItem,
+  useEditor,
+} from "@hooore/editor-headless/components";
+import {
   Check,
   CheckSquare,
   ChevronDown,
@@ -11,7 +15,6 @@ import {
   TextIcon,
   TextQuote,
 } from "lucide-react";
-import { EditorBubbleItem, useEditor } from "novel";
 
 import { Popover } from "@radix-ui/react-popover";
 import { Button } from "../ui/button";

@@ -1,4 +1,4 @@
-import type { EditorContent } from "novel";
+import type { EditorContent } from "@hooore/editor-headless/components";
 import {
   CharacterCount,
   CodeBlockLowlight,
@@ -20,8 +20,8 @@ import {
   Twitter,
   UpdatedImage,
   Youtube,
-} from "novel/extensions";
-import { UploadImagesPlugin } from "novel/plugins";
+} from "@hooore/editor-headless/extensions";
+import { UploadImagesPlugin } from "@hooore/editor-headless/plugins";
 
 import { cn } from "@hooore/utils";
 import { common, createLowlight } from "lowlight";

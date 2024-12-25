@@ -1,6 +1,6 @@
+import { useEditor } from "@hooore/editor-headless/components";
 import { cn } from "@hooore/utils";
 import { SigmaIcon } from "lucide-react";
-import { useEditor } from "novel";
 import { Button } from "../ui/button";
 
 export const MathSelector = () => {
