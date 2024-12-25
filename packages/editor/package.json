@@ -12,7 +12,8 @@
       "types": "./dist/advance-editor.d.ts",
       "import": "./dist/advance-editor.js",
       "require": "./dist/advance-editor.cjs"
-    }
+    },
+    "./styles.css": "./dist/index.css"
   },
   "scripts": {
     "build": "tsup && tsc -p tsconfig.types.json && tailwindcss -i ./src/styles.css -o ./dist/index.css",
