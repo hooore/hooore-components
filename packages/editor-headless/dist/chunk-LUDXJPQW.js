@@ -1,0 +1,1 @@
+import {Image}from'@tiptap/extension-image';var e=Image.extend({name:"image",addAttributes(){return {...this.parent?.(),width:{default:null},height:{default:null}}}}),d=e;export{d as a};

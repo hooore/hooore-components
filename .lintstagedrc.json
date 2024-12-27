@@ -1,4 +1,7 @@
 {
-  "*.{js,jsx,ts,tsx}": ["biome lint --write", "biome format --write"],
-  "*.{md,html,css}": ["biome format --write"]
+  "*.{js,jsx,ts,tsx}": [
+    "biome lint  --no-errors-on-unmatched  --write",
+    "biome format  --no-errors-on-unmatched  --write"
+  ],
+  "*.{md,html,css}": ["biome format  --no-errors-on-unmatched  --write"]
 }

@@ -1,0 +1,11 @@
+pnpm run build
+
+# Check if there are changes in any dist folders
+if git diff --quiet packages/**/dist/; then
+    # No changes in any dist folders, proceed with push
+    exit 0
+else
+    # Changes detected in dist folders
+    git add packages/**/dist/
+    git commit -m "chore: update build artifacts"
+fi

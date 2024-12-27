@@ -1,0 +1,1 @@
+export{a as defaultExtensions}from'./chunk-AOXKAL23.mjs';

@@ -1,0 +1,1 @@
+'use strict';var jotai=require('jotai');var r=jotai.atom(""),e=jotai.atom(null);exports.queryAtom=r;exports.rangeAtom=e;

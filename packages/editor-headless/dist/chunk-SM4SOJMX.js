@@ -1,0 +1,1 @@
+import {atom}from'jotai';var r=atom(""),e=atom(null);export{r as a,e as b};

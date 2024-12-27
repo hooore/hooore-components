@@ -1,0 +1,1 @@
+export{a as Mathematics}from'../chunk-SRZFDMR7.js';

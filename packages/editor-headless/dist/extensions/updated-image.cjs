@@ -1,0 +1,1 @@
+'use strict';var extensionImage=require('@tiptap/extension-image');var e=extensionImage.Image.extend({name:"image",addAttributes(){return {...this.parent?.(),width:{default:null},height:{default:null}}}}),d=e;module.exports=d;

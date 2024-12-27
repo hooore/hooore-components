@@ -1,0 +1,1 @@
+import {createStore}from'jotai';var o=createStore();export{o as a};
