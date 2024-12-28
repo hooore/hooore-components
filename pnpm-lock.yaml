@@ -27,8 +27,8 @@ importers:
         specifier: workspace:*
         version: link:../editor-headless
       '@hooore/utils':
-        specifier: link:../../hooore-packages/packages/utils
-        version: link:../../hooore-packages/packages/utils
+        specifier: file:../../hooore-packages/packages/utils
+        version: file:hooore-packages/packages/utils
       '@radix-ui/react-dialog':
         specifier: ^1.0.5
         version: 1.1.4(@types/react@19.0.2)(react-dom@18.3.1(react@19.0.0))(react@19.0.0)
@@ -85,8 +85,8 @@ importers:
         version: 10.0.4(react@19.0.0)
     devDependencies:
       '@hooore/typescript-config':
-        specifier: link:../../hooore-packages/packages/typescript-config
-        version: link:../../hooore-packages/packages/typescript-config
+        specifier: file:../../hooore-packages/packages/typescript-config
+        version: file:hooore-packages/packages/typescript-config
       '@types/react':
         specifier: ^19.0.2
         version: 19.0.2
@@ -194,8 +194,8 @@ importers:
         version: 0.1.2(@types/react@19.0.2)(react@19.0.0)
     devDependencies:
       '@hooore/typescript-config':
-        specifier: link:../../hooore-packages/packages/typescript-config
-        version: link:../../hooore-packages/packages/typescript-config
+        specifier: file:../../hooore-packages/packages/typescript-config
+        version: file:hooore-packages/packages/typescript-config
       '@types/katex':
         specifier: ^0.16.7
         version: 0.16.7
@@ -454,6 +454,12 @@ packages:
 
   '@floating-ui/utils@0.2.8':
     resolution: {integrity: sha512-kym7SodPp8/wloecOpcmSnWJsK7M0E5Wg8UcFA+uO4B9s5d0ywXOEro/8HM9x0rW+TljRzul/14UYz3TleT3ig==}
+
+  '@hooore/typescript-config@file:hooore-packages/packages/typescript-config':
+    resolution: {directory: hooore-packages/packages/typescript-config, type: directory}
+
+  '@hooore/utils@file:hooore-packages/packages/utils':
+    resolution: {directory: hooore-packages/packages/utils, type: directory}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -2450,6 +2456,9 @@ packages:
     peerDependencies:
       react: ^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
+  tailwind-merge@2.6.0:
+    resolution: {integrity: sha512-P+Vu1qXfzediirmHOC3xKGAYeZtPcV9g76X+xg2FD4tYgR71ewMA35Y3sCz3zhiN/dwefRpJX0yBcgwi1fXNQA==}
+
   tailwindcss@3.4.17:
     resolution: {integrity: sha512-w33E2aCvSDP0tW9RZuNXadXlkHXqFzSkQew/aIa2i/Sj8fThxwovwlXHSPXTbAHwEIhBFXAedUhP2tueAKP8Og==}
     engines: {node: '>=14.0.0'}
@@ -2839,6 +2848,13 @@ snapshots:
       react-dom: 18.3.1(react@19.0.0)
 
   '@floating-ui/utils@0.2.8': {}
+
+  '@hooore/typescript-config@file:hooore-packages/packages/typescript-config': {}
+
+  '@hooore/utils@file:hooore-packages/packages/utils':
+    dependencies:
+      clsx: 2.1.1
+      tailwind-merge: 2.6.0
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -5114,6 +5130,8 @@ snapshots:
       dequal: 2.0.3
       react: 19.0.0
       use-sync-external-store: 1.4.0(react@19.0.0)
+
+  tailwind-merge@2.6.0: {}
 
   tailwindcss@3.4.17:
     dependencies:

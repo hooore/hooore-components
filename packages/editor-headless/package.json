@@ -7,7 +7,9 @@
   "main": "dist/components/index.cjs",
   "module": "dist/components/index.js",
   "types": "dist/components/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     "./components": {
       "types": "./dist/components/index.d.ts",
@@ -70,7 +72,7 @@
     "tunnel-rat": "^0.1.2"
   },
   "devDependencies": {
-    "@hooore/typescript-config": "link:../../hooore-packages/packages/typescript-config",
+    "@hooore/typescript-config": "file:../../hooore-packages/packages/typescript-config",
     "@types/katex": "^0.16.7",
     "@types/node": "22.10.2",
     "@types/react": "^19.0.2",
