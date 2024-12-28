@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm run build:packages && pnpm run build:editor-headless && pnpm run build:editor",
+    "build": "pnpm run build:editor-headless && pnpm run build:editor",
     "build:editor": "pnpm --filter \"@hooore/editor\" run build",
     "build:editor-headless": "pnpm --filter \"@hooore/editor-headless\" run build",
-    "build:packages": "pnpm run install:packages && pnpm -C ./hooore-packages run build",
-    "install:packages": "pnpm -C ./hooore-packages install",
     "format": "biome format --write ./packages",
     "lint": "biome lint --write ./packages",
     "prepare": "husky"

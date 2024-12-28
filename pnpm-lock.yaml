@@ -24,7 +24,7 @@ importers:
   packages/editor:
     dependencies:
       '@hooore/editor-headless':
-        specifier: workspace:*
+        specifier: 1.0.0
         version: link:../editor-headless
       '@hooore/utils':
         specifier: file:../../hooore-packages/packages/utils
