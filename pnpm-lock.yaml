@@ -24,8 +24,8 @@ importers:
   packages/editor:
     dependencies:
       '@hooore/editor-headless':
-        specifier: 1.0.0
-        version: link:../editor-headless
+        specifier: file:../editor-headless
+        version: file:packages/editor-headless(@radix-ui/react-slot@1.1.1(@types/react@19.0.2)(react@19.0.0))(@tiptap/extension-code-block@2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/pm@2.10.4))(@types/react@19.0.2)(cmdk@0.2.1(@types/react@19.0.2)(react-dom@18.3.1(react@19.0.0))(react@19.0.0))(highlight.js@11.11.0)(katex@0.16.18)(lowlight@3.3.0)(react-dom@18.3.1(react@19.0.0))(react-markdown@9.0.1(@types/react@19.0.2)(react@19.0.0))(react@19.0.0)
       '@hooore/utils':
         specifier: file:../../hooore-packages/packages/utils
         version: file:hooore-packages/packages/utils
@@ -454,6 +454,15 @@ packages:
 
   '@floating-ui/utils@0.2.8':
     resolution: {integrity: sha512-kym7SodPp8/wloecOpcmSnWJsK7M0E5Wg8UcFA+uO4B9s5d0ywXOEro/8HM9x0rW+TljRzul/14UYz3TleT3ig==}
+
+  '@hooore/editor-headless@file:packages/editor-headless':
+    resolution: {directory: packages/editor-headless, type: directory}
+    peerDependencies:
+      '@radix-ui/react-slot': ^1.0.2
+      cmdk: ^0.2.1
+      katex: ^0.16.10
+      react: ^19.0.0
+      react-markdown: ^8.0.7
 
   '@hooore/typescript-config@file:hooore-packages/packages/typescript-config':
     resolution: {directory: hooore-packages/packages/typescript-config, type: directory}
@@ -2848,6 +2857,46 @@ snapshots:
       react-dom: 18.3.1(react@19.0.0)
 
   '@floating-ui/utils@0.2.8': {}
+
+  '@hooore/editor-headless@file:packages/editor-headless(@radix-ui/react-slot@1.1.1(@types/react@19.0.2)(react@19.0.0))(@tiptap/extension-code-block@2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/pm@2.10.4))(@types/react@19.0.2)(cmdk@0.2.1(@types/react@19.0.2)(react-dom@18.3.1(react@19.0.0))(react@19.0.0))(highlight.js@11.11.0)(katex@0.16.18)(lowlight@3.3.0)(react-dom@18.3.1(react@19.0.0))(react-markdown@9.0.1(@types/react@19.0.2)(react@19.0.0))(react@19.0.0)':
+    dependencies:
+      '@radix-ui/react-slot': 1.1.1(@types/react@19.0.2)(react@19.0.0)
+      '@tiptap/core': 2.10.4(@tiptap/pm@2.10.4)
+      '@tiptap/extension-character-count': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/pm@2.10.4)
+      '@tiptap/extension-code-block-lowlight': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/extension-code-block@2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/pm@2.10.4))(@tiptap/pm@2.10.4)(highlight.js@11.11.0)(lowlight@3.3.0)
+      '@tiptap/extension-color': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/extension-text-style@2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4)))
+      '@tiptap/extension-highlight': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))
+      '@tiptap/extension-horizontal-rule': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/pm@2.10.4)
+      '@tiptap/extension-image': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))
+      '@tiptap/extension-link': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/pm@2.10.4)
+      '@tiptap/extension-placeholder': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/pm@2.10.4)
+      '@tiptap/extension-task-item': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/pm@2.10.4)
+      '@tiptap/extension-task-list': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))
+      '@tiptap/extension-text-style': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))
+      '@tiptap/extension-underline': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))
+      '@tiptap/extension-youtube': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))
+      '@tiptap/pm': 2.10.4
+      '@tiptap/react': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/pm@2.10.4)(react-dom@18.3.1(react@19.0.0))(react@19.0.0)
+      '@tiptap/starter-kit': 2.10.4
+      '@tiptap/suggestion': 2.10.4(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))(@tiptap/pm@2.10.4)
+      cmdk: 0.2.1(@types/react@19.0.2)(react-dom@18.3.1(react@19.0.0))(react@19.0.0)
+      jotai: 2.11.0(@types/react@19.0.2)(react@19.0.0)
+      katex: 0.16.18
+      react: 19.0.0
+      react-markdown: 9.0.1(@types/react@19.0.2)(react@19.0.0)
+      react-moveable: 0.56.0
+      react-tweet: 3.2.1(react-dom@18.3.1(react@19.0.0))(react@19.0.0)
+      tippy.js: 6.3.7
+      tiptap-extension-global-drag-handle: 0.1.16
+      tiptap-markdown: 0.8.10(@tiptap/core@2.10.4(@tiptap/pm@2.10.4))
+      tunnel-rat: 0.1.2(@types/react@19.0.2)(react@19.0.0)
+    transitivePeerDependencies:
+      - '@tiptap/extension-code-block'
+      - '@types/react'
+      - highlight.js
+      - immer
+      - lowlight
+      - react-dom
 
   '@hooore/typescript-config@file:hooore-packages/packages/typescript-config': {}
 

@@ -43,7 +43,7 @@
     "tsup": "^8.3.5"
   },
   "dependencies": {
-    "@hooore/editor-headless": "1.0.0",
+    "@hooore/editor-headless": "file:../editor-headless",
     "eventsource-parser": "^3.0.0",
     "highlight.js": "^11.9.0",
     "lowlight": "^3.1.0",
