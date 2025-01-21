@@ -1,1 +1,1 @@
-'use strict';var react=require('react');function u(e,s){let[r,o]=react.useState(s);return react.useEffect(()=>{let t=window.localStorage.getItem(e);t&&o(JSON.parse(t));},[e]),[r,t=>{o(t),window.localStorage.setItem(e,JSON.stringify(t));}]}exports.useLocalStorage=u;
+import {useState,useEffect}from'react';function u(e,s){let[r,o]=useState(s);return useEffect(()=>{let t=window.localStorage.getItem(e);t&&o(JSON.parse(t));},[e]),[r,t=>{o(t),window.localStorage.setItem(e,JSON.stringify(t));}]}export{u as useLocalStorage};
