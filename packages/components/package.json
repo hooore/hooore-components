@@ -4,7 +4,8 @@
   "sideEffects": false,
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "tailwind.config.ts"
   ],
   "exports": {
     "./styles.css": "./dist/index.css",
