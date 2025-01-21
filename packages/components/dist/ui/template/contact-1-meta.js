@@ -1,0 +1,1 @@
+export{a as CONTACT_1_META}from'../../chunk-GSOFG3XH.js';import'../../chunk-OXPYX7QW.js';

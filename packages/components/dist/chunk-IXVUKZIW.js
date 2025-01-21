@@ -1,0 +1,1 @@
+import {a}from'./chunk-NOUWIAIA.js';var n={slug:"content-5",component:a};export{n as a};

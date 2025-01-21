@@ -1,0 +1,1 @@
+export{a as Marquee}from'../../chunk-RS72QGI5.js';

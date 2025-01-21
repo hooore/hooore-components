@@ -1,0 +1,1 @@
+import {a}from'./chunk-IVORFSLO.js';var t={slug:"logo-list-1",component:a};export{t as a};

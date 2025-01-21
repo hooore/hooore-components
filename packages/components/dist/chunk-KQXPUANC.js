@@ -1,0 +1,1 @@
+import {a}from'./chunk-V7Y4KRVG.js';var r={slug:"stats-2",component:a};export{r as a};

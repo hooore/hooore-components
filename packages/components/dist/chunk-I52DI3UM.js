@@ -1,0 +1,1 @@
+import {a}from'./chunk-CSTISK3P.js';import {Fragment}from'react';import {jsxs,jsx}from'react/jsx-runtime';function c({children:t,className:n}){return t?.split(" ").map((r,o)=>jsxs(Fragment,{children:[jsx(a,{autoConvert:!0,className:n,children:r})," "]},o))}export{c as a};

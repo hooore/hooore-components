@@ -1,0 +1,1 @@
+'use strict';function e(t){return null}var p={slug:"newsletter-2",component:e};exports.NEWSLETTER_2_META=p;

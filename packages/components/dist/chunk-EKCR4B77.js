@@ -1,0 +1,1 @@
+import {a}from'./chunk-QGM6E4W7.js';var e={slug:"call-to-action-3",component:a};export{e as a};

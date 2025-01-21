@@ -1,0 +1,1 @@
+import {a}from'./chunk-NR6VKZBS.js';var o={slug:"testimonials-2",component:a};export{o as a};

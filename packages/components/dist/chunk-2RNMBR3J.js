@@ -1,0 +1,1 @@
+import {a}from'./chunk-N2DQDWCP.js';var r={slug:"blog-1",component:a};export{r as a};

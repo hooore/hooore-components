@@ -1,0 +1,1 @@
+import {b}from'./chunk-WJQIDAHG.js';var r={slug:"how-it-works-1",component:b};export{r as a};

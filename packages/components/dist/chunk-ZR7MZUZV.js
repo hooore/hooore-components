@@ -1,0 +1,1 @@
+import {a}from'./chunk-IJ3A3OGW.js';var o={slug:"faq-4",component:a};export{o as a};

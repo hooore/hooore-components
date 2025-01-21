@@ -1,0 +1,1 @@
+import {b}from'./chunk-JAUF7XSG.js';var r={slug:"features-list-1",component:b};export{r as a};

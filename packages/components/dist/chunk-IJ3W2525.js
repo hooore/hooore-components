@@ -1,0 +1,1 @@
+import {a}from'./chunk-GFQ773IT.js';var n={slug:"pricing-2",component:a};export{n as a};

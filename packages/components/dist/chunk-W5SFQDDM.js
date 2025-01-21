@@ -1,0 +1,1 @@
+import {a}from'./chunk-IUOUEETG.js';var r={slug:"newsletter-2",component:a};export{r as a};

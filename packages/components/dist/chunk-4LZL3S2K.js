@@ -1,0 +1,1 @@
+import {a}from'./chunk-JJ72LSDV.js';var e={slug:"call-to-action-1",component:a};export{e as a};

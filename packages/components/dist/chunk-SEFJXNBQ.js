@@ -1,0 +1,1 @@
+import {a}from'./chunk-VT3T2OY2.js';var l={slug:"gallery-2",component:a};export{l as a};

@@ -1,0 +1,1 @@
+import {a}from'./chunk-LIG74WJR.js';var n={slug:"pricing-1",component:a};export{n as a};

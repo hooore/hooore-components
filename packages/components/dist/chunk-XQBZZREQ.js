@@ -1,0 +1,1 @@
+import {cn}from'@hooore/utils';import {jsx}from'react/jsx-runtime';function s({height:e=2,subtle:r=!1,className:o}){return jsx("span",{style:{height:r?"1px":`${e}px`},className:cn("pc-block pc-w-full",r?"pc-bg-[rgb(var(--foreground))]/50":"pc-bg-[rgb(var(--foreground))]",o)})}export{s as a};

@@ -1,0 +1,1 @@
+import {a}from'./chunk-6FCZYHOS.js';var l={slug:"gallery-1",component:a};export{l as a};

@@ -1,0 +1,1 @@
+'use strict';function r(e){return null}exports.Newsletter2=r;

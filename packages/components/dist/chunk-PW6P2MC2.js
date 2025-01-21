@@ -1,0 +1,1 @@
+import {a}from'./chunk-S7U62FGR.js';var o={slug:"testimonials-3",component:a};export{o as a};

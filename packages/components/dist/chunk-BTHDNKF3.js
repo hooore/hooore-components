@@ -1,0 +1,1 @@
+import {a}from'./chunk-SYMA3NN7.js';var r={slug:"stats-3",component:a};export{r as a};

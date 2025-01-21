@@ -1,0 +1,1 @@
+import {a}from'./chunk-EPWVC2MG.js';var n={slug:"content-7",component:a};export{n as a};

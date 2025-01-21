@@ -1,0 +1,1 @@
+export{a as Hero2}from'../../chunk-2V4IMBFK.js';

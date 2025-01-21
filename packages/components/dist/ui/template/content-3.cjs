@@ -1,0 +1,1 @@
+'use strict';var jsxRuntime=require('react/jsx-runtime');function n(p){let{description:e}=p;return e&&jsxRuntime.jsx("section",{className:"pc-px-4 pc-py-10 sm:pc-px-20 sm:pc-py-20",children:jsxRuntime.jsx("p",{className:"pc-whitespace-pre-line pc-text-balance pc-text-center pc-text-h3 sm:pc-text-h3-sm",children:e})})}exports.Content3=n;

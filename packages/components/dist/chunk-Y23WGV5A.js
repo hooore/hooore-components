@@ -1,0 +1,1 @@
+import {a}from'./chunk-EHSOCZ57.js';var e={slug:"call-to-action-4",component:a};export{e as a};

@@ -1,0 +1,1 @@
+export{a as Collections3}from'../../chunk-ZZLA4VIF.js';

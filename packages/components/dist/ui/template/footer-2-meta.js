@@ -1,0 +1,1 @@
+export{a as FOOTER_2_META}from'../../chunk-CW3GMXCT.js';import'../../chunk-DY7FR2LG.js';import'../../chunk-CVQM4XUI.js';

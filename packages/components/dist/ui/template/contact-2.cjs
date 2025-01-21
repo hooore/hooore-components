@@ -1,0 +1,1 @@
+'use strict';function e(t){return null}exports.Contact2=e;

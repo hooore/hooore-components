@@ -1,0 +1,1 @@
+export{a as Faq4}from'../../chunk-IJ3A3OGW.js';

@@ -1,0 +1,1 @@
+export{a as COLLECTIONS_2_META}from'../../chunk-4BUBQKVB.js';import'../../chunk-LU5YGQDS.js';

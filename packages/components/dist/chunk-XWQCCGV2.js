@@ -1,0 +1,1 @@
+import {a}from'./chunk-QTPVUENT.js';var m={slug:"team-1",component:a};export{m as a};

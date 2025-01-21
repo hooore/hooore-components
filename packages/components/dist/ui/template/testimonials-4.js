@@ -1,0 +1,1 @@
+export{a as Testimonials4}from'../../chunk-OMXZ5DK6.js';

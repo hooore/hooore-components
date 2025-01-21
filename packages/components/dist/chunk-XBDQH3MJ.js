@@ -1,0 +1,1 @@
+import {b}from'./chunk-NWERHSOU.js';var o={slug:"navbar-1",component:b};export{o as a};

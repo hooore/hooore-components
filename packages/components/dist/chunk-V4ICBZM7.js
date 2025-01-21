@@ -1,0 +1,1 @@
+import {a}from'./chunk-KO4VQXLB.js';var l={slug:"gallery-3",component:a};export{l as a};

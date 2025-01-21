@@ -1,0 +1,1 @@
+export{a as Faq2}from'../../chunk-BAXFXADG.js';

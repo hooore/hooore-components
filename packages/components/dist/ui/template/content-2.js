@@ -1,0 +1,1 @@
+export{a as Content2}from'../../chunk-TNGSSIHP.js';

@@ -1,0 +1,1 @@
+import {a}from'./chunk-BKXH3DPK.js';var t={slug:"logo-list-2",component:a};export{t as a};

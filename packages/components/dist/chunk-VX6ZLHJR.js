@@ -1,0 +1,1 @@
+import {a}from'./chunk-ILJDJSUM.js';var e={slug:"call-to-action-6",component:a};export{e as a};

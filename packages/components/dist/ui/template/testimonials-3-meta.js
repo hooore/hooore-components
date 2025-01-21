@@ -1,0 +1,1 @@
+export{a as TESTIMONIALS_3_META}from'../../chunk-PW6P2MC2.js';import'../../chunk-S7U62FGR.js';

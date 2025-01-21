@@ -1,0 +1,1 @@
+export{a as Collections2}from'../../chunk-LU5YGQDS.js';

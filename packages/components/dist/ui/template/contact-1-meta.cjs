@@ -1,0 +1,1 @@
+'use strict';function t(o){return null}var p={slug:"contact-1",component:t};exports.CONTACT_1_META=p;

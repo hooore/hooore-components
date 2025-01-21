@@ -1,0 +1,1 @@
+export{a as Stats2}from'../../chunk-V7Y4KRVG.js';

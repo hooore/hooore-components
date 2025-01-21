@@ -1,0 +1,1 @@
+import {a}from'./chunk-LU5YGQDS.js';var t={slug:"collections-2",component:a};export{t as a};

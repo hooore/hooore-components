@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Modified from https://github.com/steven-tey/novel",
   "sideEffects": false,
+  "type": "module",
   "main": "dist/advance-editor.js",
   "module": "dist/advance-editor.mjs",
   "types": "dist/advance-editor.d.ts",
@@ -37,7 +38,7 @@
   },
   "devDependencies": {
     "@hooore/typescript-config": "file:../../hooore-packages/packages/typescript-config",
-    "@types/react": "^19.0.2",
+    "@types/react": "^19.0.7",
     "autoprefixer": "^10.4.17",
     "tailwindcss": "^3.4.10",
     "tsup": "^8.3.5"

@@ -1,0 +1,1 @@
+import {a}from'./chunk-HKSXBRTY.js';var o={slug:"contact-2",component:a};export{o as a};

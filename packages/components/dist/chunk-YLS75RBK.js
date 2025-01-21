@@ -1,0 +1,1 @@
+import {a}from'./chunk-2TDK32U4.js';var r={slug:"features-list-5",component:a};export{r as a};

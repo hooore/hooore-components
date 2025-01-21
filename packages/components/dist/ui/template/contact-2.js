@@ -1,0 +1,1 @@
+export{a as Contact2}from'../../chunk-HKSXBRTY.js';

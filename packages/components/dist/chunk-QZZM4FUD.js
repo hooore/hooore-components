@@ -1,0 +1,1 @@
+import {a}from'./chunk-BAXFXADG.js';var o={slug:"faq-2",component:a};export{o as a};
