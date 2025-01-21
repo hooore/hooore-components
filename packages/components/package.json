@@ -3,6 +3,23 @@
   "version": "1.0.0",
   "sideEffects": false,
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./styles.css": "./dist/index.css",
+    "./*": {
+      "import": "./dist/ui/*.js",
+      "require": "./dist/ui/*.cjs",
+      "types": "./dist/ui/*.d.ts"
+    },
+    "./types/*": {
+      "import": "./dist/types/*.js",
+      "require": "./dist/types/*.cjs",
+      "types": "./dist/types/*.d.ts"
+    },
+    "./tailwind.config": "./tailwind.config.ts"
+  },
   "scripts": {
     "build": "tsup && tsc -p tsconfig.types.json && tailwindcss -i ./src/styles.css -o ./dist/index.css",
     "dev": "tailwindcss -i ./src/styles.css -o ./dist/index.css --watch",
@@ -29,7 +46,6 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.45",
     "postgres-shift": "^0.1.0",
-    "react": "^18.3.1",
     "tailwindcss": "^3.4.10",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.5.4",
