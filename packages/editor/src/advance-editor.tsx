@@ -32,11 +32,13 @@ const extensions = [...defaultExtensions, slashCommand]
 
 export type TailwindAdvancedEditorProps = {
   initialValue?: JSONContent
+  immediatelyRender?: boolean
   onChange: (value: JSONContent) => void
 }
 
 export const TailwindAdvancedEditor = ({
   initialValue,
+  immediatelyRender,
   onChange,
 }: TailwindAdvancedEditorProps) => {
   const [openNode, setOpenNode] = useState(false)
@@ -48,6 +50,7 @@ export const TailwindAdvancedEditor = ({
       <EditorContent
         initialContent={initialValue}
         extensions={extensions}
+        immediatelyRender={immediatelyRender}
         className="tailwind-advanced-editor editor-relative editor-w-full"
         editorProps={{
           handleDOMEvents: {
