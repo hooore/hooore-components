@@ -1,3 +1,5 @@
+'use client'
+
 import { useEditor } from '@hooore/editor-headless/components'
 import { cn } from '@hooore/utils'
 import { Popover, PopoverTrigger } from '@radix-ui/react-popover'

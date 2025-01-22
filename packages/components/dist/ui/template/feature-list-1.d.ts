@@ -1,7 +1,7 @@
-import type { FeatureItemProps, FeaturesList1Props } from "../../types/template-types/features-list-1";
+import type { FeatureItemProps, FeaturesList1Props } from '../../types/template-types/features-list-1';
 export declare function FeatureItem(props: FeatureItemProps & {
     className?: string;
-    direction?: "vertical" | "horizontal";
+    direction?: 'vertical' | 'horizontal';
     footer?: React.ReactNode;
 }): import("react/jsx-runtime").JSX.Element;
 export type FeaturesList1RendererProps = FeaturesList1Props & {

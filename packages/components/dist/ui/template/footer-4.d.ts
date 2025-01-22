@@ -1,4 +1,4 @@
-import type { Footer4Props } from "../../types/template-types/footer-4";
+import type { Footer4Props } from '../../types/template-types/footer-4';
 export type Footer4RendererProps = Footer4Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

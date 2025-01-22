@@ -1,4 +1,4 @@
-export type Team2Slug = "team-2";
+export type Team2Slug = 'team-2';
 export type Team2TeamSocialProps = {
     slug?: string;
     link?: string;

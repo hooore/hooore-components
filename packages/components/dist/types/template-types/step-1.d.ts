@@ -1,4 +1,4 @@
-export type Step1Slug = "step-1";
+export type Step1Slug = 'step-1';
 export type StepItem1Props = {
     value?: string;
     label?: string;

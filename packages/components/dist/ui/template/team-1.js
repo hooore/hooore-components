@@ -1,1 +1,1 @@
-export{a as Team1}from'../../chunk-QTPVUENT.js';import'../../chunk-CVQM4XUI.js';
+export{a as Team1}from'../../chunk-SZBZQJFF.js';import'../../chunk-VWCUUJGP.js';

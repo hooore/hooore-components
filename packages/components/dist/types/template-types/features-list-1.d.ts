@@ -1,4 +1,4 @@
-export type FeaturesList1Slug = "features-list-1";
+export type FeaturesList1Slug = 'features-list-1';
 export type FeatureNameProps = {
     name?: string;
 };

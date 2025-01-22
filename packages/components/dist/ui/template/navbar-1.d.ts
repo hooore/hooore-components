@@ -1,5 +1,5 @@
-import type { Navbar1Props } from "../../types/template-types/navbar-1";
-import { type ButtonProps } from "../common/button";
+import type { Navbar1Props } from '../../types/template-types/navbar-1';
+import { type ButtonProps } from '../common/button';
 export type NavButtonProps = ButtonProps & {
     isActive?: boolean;
 };

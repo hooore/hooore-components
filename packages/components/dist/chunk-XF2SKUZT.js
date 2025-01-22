@@ -1,1 +1,0 @@
-import {a}from'./chunk-CQFVXR7K.js';var o={slug:"hero-4",component:a};export{o as a};

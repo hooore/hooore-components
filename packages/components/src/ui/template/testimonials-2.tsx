@@ -1,3 +1,5 @@
+'use client'
+
 import { useRef, useState } from 'react'
 import type { Testimonials2Props } from '../../types/template-types/testimonials-2'
 

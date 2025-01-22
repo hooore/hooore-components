@@ -1,4 +1,4 @@
-import type { CallToAction1Props } from "../../types/template-types/call-to-action-1";
+import type { CallToAction1Props } from '../../types/template-types/call-to-action-1';
 export type CallToAction1RendererProps = CallToAction1Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

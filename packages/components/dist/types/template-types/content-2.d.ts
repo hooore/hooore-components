@@ -1,4 +1,4 @@
-export type Content2Slug = "content-2";
+export type Content2Slug = 'content-2';
 export type Content2LolProps = {
     sss?: string;
 };

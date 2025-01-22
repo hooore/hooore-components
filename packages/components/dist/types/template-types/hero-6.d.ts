@@ -1,4 +1,4 @@
-export type Hero6Slug = "hero-6";
+export type Hero6Slug = 'hero-6';
 export type Hero61SocialProps = {
     slug?: string;
     link?: string;

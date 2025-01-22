@@ -1,4 +1,4 @@
-export type Content7Slug = "content-7";
+export type Content7Slug = 'content-7';
 export type Content7Props = {
     sub_headline?: string;
     headline?: string;

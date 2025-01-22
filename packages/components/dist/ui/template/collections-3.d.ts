@@ -1,4 +1,4 @@
-import type { Collections3Props } from "../../types/template-types/collections-3";
+import type { Collections3Props } from '../../types/template-types/collections-3';
 export type Collections3RendererProps = Collections3Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

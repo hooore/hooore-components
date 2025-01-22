@@ -1,4 +1,4 @@
-import type { Team2Props } from "../../types/template-types/team-2";
+import type { Team2Props } from '../../types/template-types/team-2';
 export type Team2RendererProps = Team2Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

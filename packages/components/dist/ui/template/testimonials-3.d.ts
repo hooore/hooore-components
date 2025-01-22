@@ -1,4 +1,4 @@
-import type { Testimonials3Props } from "../../types/template-types/testimonials-3";
+import type { Testimonials3Props } from '../../types/template-types/testimonials-3';
 export type Testimonials3RendererProps = Testimonials3Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

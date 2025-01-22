@@ -1,4 +1,4 @@
-export type Faq3Slug = "faq-3";
+export type Faq3Slug = 'faq-3';
 export type FaqItemProps = {
     question?: string;
     answer?: string;

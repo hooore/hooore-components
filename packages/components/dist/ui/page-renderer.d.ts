@@ -1,5 +1,5 @@
-import type { PageContent } from "../types/page-content";
-import type { PageRendererComponentProps } from "./types";
+import type { PageContent } from '../types/page-content';
+import type { PageRendererComponentProps } from './types';
 export declare function PageRendererComponent(props: PageRendererComponentProps): import("react/jsx-runtime").JSX.Element | null;
 export type PageRendererProps = {
     contents: PageContent[];

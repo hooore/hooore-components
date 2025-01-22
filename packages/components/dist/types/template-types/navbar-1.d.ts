@@ -1,4 +1,4 @@
-export type Navbar1Slug = "navbar-1";
+export type Navbar1Slug = 'navbar-1';
 export type NavbarSubItemProps = {
     label?: string;
     link?: string;

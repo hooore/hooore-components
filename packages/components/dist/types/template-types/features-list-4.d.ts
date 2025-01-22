@@ -1,4 +1,4 @@
-export type FeaturesList4Slug = "features-list-4";
+export type FeaturesList4Slug = 'features-list-4';
 export type FeatureItem4Props = {
     icon?: string;
     headline?: string;

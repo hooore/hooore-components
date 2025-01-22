@@ -1,4 +1,4 @@
-export type HowItWorks1Slug = "how-it-works-1";
+export type HowItWorks1Slug = 'how-it-works-1';
 export type HowItWorksTaskProps = {
     name?: string;
     description?: string;

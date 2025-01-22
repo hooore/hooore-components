@@ -1,3 +1,4 @@
+'use client'
 import type { EditorProviderProps, JSONContent } from '@tiptap/react'
 import { EditorProvider } from '@tiptap/react'
 import { Provider } from 'jotai'

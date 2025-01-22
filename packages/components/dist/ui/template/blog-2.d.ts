@@ -1,4 +1,4 @@
-import type { Blog2Props } from "../../types/template-types/blog-2";
+import type { Blog2Props } from '../../types/template-types/blog-2';
 export type Blog2RendererProps = Blog2Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

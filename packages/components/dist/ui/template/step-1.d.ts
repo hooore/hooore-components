@@ -1,4 +1,4 @@
-import type { Step1Props } from "../../types/template-types/step-1";
+import type { Step1Props } from '../../types/template-types/step-1';
 export type Step1RendererProps = Step1Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

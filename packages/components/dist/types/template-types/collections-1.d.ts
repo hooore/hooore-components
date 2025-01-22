@@ -1,4 +1,4 @@
-export type Collections1Slug = "collections-1";
+export type Collections1Slug = 'collections-1';
 export type CollectionItem1Props = {
     link?: string;
     image?: string;

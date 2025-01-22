@@ -1,4 +1,4 @@
-import type { Team3Props } from "../../types/template-types/team-3";
+import type { Team3Props } from '../../types/template-types/team-3';
 export type Team3RendererProps = Team3Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

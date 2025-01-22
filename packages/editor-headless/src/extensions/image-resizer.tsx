@@ -1,3 +1,4 @@
+'use client'
 import { useCurrentEditor } from '@tiptap/react'
 import type { FC } from 'react'
 import Moveable from 'react-moveable'

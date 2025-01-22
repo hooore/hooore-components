@@ -1,4 +1,4 @@
-import type { Stats1Props } from "../../types/template-types/stats-1";
+import type { Stats1Props } from '../../types/template-types/stats-1';
 export type Stats1RendererProps = Stats1Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

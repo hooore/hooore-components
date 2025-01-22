@@ -1,4 +1,4 @@
-import type { LogoList1Props } from "../../types/template-types/logo-list-1";
+import type { LogoList1Props } from '../../types/template-types/logo-list-1';
 export type LogoList1RendererProps = LogoList1Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

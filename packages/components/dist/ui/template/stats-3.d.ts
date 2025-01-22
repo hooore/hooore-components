@@ -1,4 +1,4 @@
-import type { Stats3Props } from "../../types/template-types/stats-3";
+import type { Stats3Props } from '../../types/template-types/stats-3';
 export type Stats3RendererProps = Stats3Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

@@ -1,4 +1,4 @@
-import type { Blog3Props } from "../../types/template-types/blog-3";
+import type { Blog3Props } from '../../types/template-types/blog-3';
 export type Blog3RendererProps = Blog3Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

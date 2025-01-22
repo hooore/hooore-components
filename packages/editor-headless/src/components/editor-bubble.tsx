@@ -1,3 +1,5 @@
+'use client'
+
 import type { BubbleMenuProps } from '@tiptap/react'
 import { BubbleMenu, isNodeSelection, useCurrentEditor } from '@tiptap/react'
 import type { ReactNode } from 'react'

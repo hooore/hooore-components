@@ -1,4 +1,4 @@
-import type { Gallery1Props } from "../../types/template-types/gallery-1";
+import type { Gallery1Props } from '../../types/template-types/gallery-1';
 export type Gallery1RendererProps = Gallery1Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

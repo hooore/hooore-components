@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm run build:editor-headless && pnpm run build:editor",
+    "build": "pnpm run build:editor-headless && pnpm install && pnpm run build:editor && pnpm install && pnpm run build:components",
+    "build:components": "pnpm --filter \"@hooore/components\" run build",
     "build:editor": "pnpm --filter \"@hooore/editor\" run build",
     "build:editor-headless": "pnpm --filter \"@hooore/editor-headless\" run build",
     "format": "biome format --write ./packages",

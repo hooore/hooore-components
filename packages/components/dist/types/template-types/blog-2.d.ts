@@ -1,4 +1,4 @@
-export type Blog2Slug = "blog-2";
+export type Blog2Slug = 'blog-2';
 export type Blog2BlogProps = {
     image?: string;
     title?: string;

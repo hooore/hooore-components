@@ -1,4 +1,4 @@
-import type { FeaturesList4Props } from "../../types/template-types/features-list-4";
+import type { FeaturesList4Props } from '../../types/template-types/features-list-4';
 export type FeaturesList4RendererProps = FeaturesList4Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

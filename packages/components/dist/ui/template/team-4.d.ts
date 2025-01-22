@@ -1,4 +1,4 @@
-import type { Team4Props } from "../../types/template-types/team-4";
+import type { Team4Props } from '../../types/template-types/team-4';
 export type Team4RendererProps = Team4Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

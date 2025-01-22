@@ -1,4 +1,4 @@
-import type { Content1Props } from "../../types/template-types/content-1";
+import type { Content1Props } from '../../types/template-types/content-1';
 export type Content1RendererProps = Content1Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

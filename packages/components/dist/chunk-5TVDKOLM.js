@@ -1,0 +1,1 @@
+import {a}from'./chunk-XNIEWWB2.js';var n={slug:"content-6",component:a};export{n as a};

@@ -1,4 +1,4 @@
-import type { Hero6Props } from "../../types/template-types/hero-6";
+import type { Hero6Props } from '../../types/template-types/hero-6';
 export type Hero6RendererProps = Hero6Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

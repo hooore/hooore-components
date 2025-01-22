@@ -1,4 +1,4 @@
-export type Faq4Slug = "faq-4";
+export type Faq4Slug = 'faq-4';
 export type FaqItemProps = {
     question?: string;
     answer?: string;

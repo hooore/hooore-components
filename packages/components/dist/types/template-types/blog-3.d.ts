@@ -1,4 +1,4 @@
-export type Blog3Slug = "blog-3";
+export type Blog3Slug = 'blog-3';
 export type Blog3BlogProps = {
     image?: string;
     title?: string;

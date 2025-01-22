@@ -1,4 +1,4 @@
-import type { Faq3Props } from "../../types/template-types/faq-3";
+import type { Faq3Props } from '../../types/template-types/faq-3';
 export type Faq3RendererProps = Faq3Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

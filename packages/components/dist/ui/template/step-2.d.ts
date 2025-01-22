@@ -1,4 +1,4 @@
-import type { Step2Props } from "../../types/template-types/step-2";
+import type { Step2Props } from '../../types/template-types/step-2';
 export type Step2RendererProps = Step2Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

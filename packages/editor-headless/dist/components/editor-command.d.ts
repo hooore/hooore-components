@@ -1,5 +1,5 @@
-import type { Range } from '@tiptap/core';
-import type { FC } from 'react';
+import type { Range } from "@tiptap/core";
+import type { FC } from "react";
 export declare const EditorCommandTunnelContext: import("react").Context<{
     In: ({ children }: {
         children: React.ReactNode;

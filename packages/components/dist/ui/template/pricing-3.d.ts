@@ -1,4 +1,4 @@
-import type { Pricing3Props } from "../../types/template-types/pricing-3";
+import type { Pricing3Props } from '../../types/template-types/pricing-3';
 export type Pricing3RendererProps = Pricing3Props & {
     disableAnimation?: boolean;
     disableLink?: boolean;

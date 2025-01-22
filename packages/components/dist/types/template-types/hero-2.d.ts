@@ -1,4 +1,4 @@
-export type Hero2Slug = "hero-2";
+export type Hero2Slug = 'hero-2';
 export type Hero2Props = {
     image?: string;
     sub_headline?: string;

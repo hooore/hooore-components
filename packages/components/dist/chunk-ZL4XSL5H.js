@@ -1,0 +1,1 @@
+import {a}from'./chunk-TYKKQBRO.js';var m={slug:"team-4",component:a};export{m as a};

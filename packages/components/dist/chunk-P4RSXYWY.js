@@ -1,0 +1,1 @@
+import {a}from'./chunk-DXR5TE5W.js';var r={slug:"footer-3",component:a};export{r as a};

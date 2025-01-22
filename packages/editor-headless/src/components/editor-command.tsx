@@ -1,3 +1,5 @@
+'use client'
+
 import type { Range } from '@tiptap/core'
 import { Command } from 'cmdk'
 import { useAtom, useSetAtom } from 'jotai'

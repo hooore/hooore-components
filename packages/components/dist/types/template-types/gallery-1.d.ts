@@ -1,4 +1,4 @@
-export type Gallery1Slug = "gallery-1";
+export type Gallery1Slug = 'gallery-1';
 export type GalleryImage1Props = {
     link?: string;
     image?: string;

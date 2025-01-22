@@ -1,4 +1,4 @@
-export type Content4Slug = "content-4";
+export type Content4Slug = 'content-4';
 export type Content4ItemProps = {
     headline?: string;
     description?: string;

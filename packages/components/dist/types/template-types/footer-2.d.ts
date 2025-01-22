@@ -1,4 +1,4 @@
-export type Footer2Slug = "footer-2";
+export type Footer2Slug = 'footer-2';
 export type FooterLinkProps = {
     label?: string;
     link?: string;

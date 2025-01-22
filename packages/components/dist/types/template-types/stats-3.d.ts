@@ -1,4 +1,4 @@
-export type Stats3Slug = "stats-3";
+export type Stats3Slug = 'stats-3';
 export type StatItem3Props = {
     value?: string;
     label?: string;

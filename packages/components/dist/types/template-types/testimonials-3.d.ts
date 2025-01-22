@@ -1,4 +1,4 @@
-export type Testimonials3Slug = "testimonials-3";
+export type Testimonials3Slug = 'testimonials-3';
 export type Testimonials3ItemProps = {
     image?: string;
     name?: string;

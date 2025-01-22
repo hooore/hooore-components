@@ -1,4 +1,4 @@
-import type { HowItWorks1Props, HowItWorksStepProps } from "../../types/template-types/how-it-works-1";
+import type { HowItWorks1Props, HowItWorksStepProps } from '../../types/template-types/how-it-works-1';
 export declare function HowItWorksStep(props: HowItWorksStepProps & {
     number?: number;
 }): import("react/jsx-runtime").JSX.Element;
