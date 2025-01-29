@@ -1,1 +1,2 @@
-export{a as FeaturesList6}from'../../chunk-EIURMUY3.js';
+'use client'
+import{a}from"../../chunk-EIURMUY3.js";export{a as FeaturesList6};

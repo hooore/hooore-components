@@ -1,1 +1,2 @@
-export{a as novelStore}from'../chunk-TQICYAQN.js';
+'use client'
+import{a}from"../chunk-TQICYAQN.js";export{a as novelStore};

@@ -1,1 +1,2 @@
-export{a as default}from'../chunk-6RCMGAFW.js';
+'use client'
+import{a}from"../chunk-6RCMGAFW.js";export{a as default};

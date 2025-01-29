@@ -1,1 +1,2 @@
-import {createStore}from'jotai';var o=createStore();export{o as a};
+'use client'
+import{createStore as e}from"jotai";var o=e();export{o as a};

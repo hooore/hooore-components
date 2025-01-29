@@ -1,1 +1,2 @@
-export{a as Content3}from'../../chunk-XBXSLYZ3.js';
+'use client'
+import{a}from"../../chunk-XBXSLYZ3.js";export{a as Content3};

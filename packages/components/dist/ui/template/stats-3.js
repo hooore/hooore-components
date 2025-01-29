@@ -1,1 +1,2 @@
-export{a as Stats3}from'../../chunk-SYMA3NN7.js';
+'use client'
+import{a}from"../../chunk-SYMA3NN7.js";export{a as Stats3};

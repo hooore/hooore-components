@@ -1,1 +1,2 @@
-export{a as Blog1}from'../../chunk-N2DQDWCP.js';
+'use client'
+import{a}from"../../chunk-N2DQDWCP.js";export{a as Blog1};

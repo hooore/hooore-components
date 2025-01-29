@@ -1,1 +1,2 @@
-export{a as Footer3}from'../../chunk-DXR5TE5W.js';import'../../chunk-VWCUUJGP.js';
+'use client'
+import{a}from"../../chunk-DXR5TE5W.js";import"../../chunk-VWCUUJGP.js";export{a as Footer3};

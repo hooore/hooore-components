@@ -1,1 +1,2 @@
-'use strict';var jotai=require('jotai');var o=jotai.createStore();exports.novelStore=o;
+'use client'
+"use strict";var p=Object.defineProperty;var S=Object.getOwnPropertyDescriptor;var a=Object.getOwnPropertyNames;var f=Object.prototype.hasOwnProperty;var m=(t,e)=>{for(var r in e)p(t,r,{get:e[r],enumerable:!0})},y=(t,e,r,c)=>{if(e&&typeof e=="object"||typeof e=="function")for(let o of a(e))!f.call(t,o)&&o!==r&&p(t,o,{get:()=>e[o],enumerable:!(c=S(e,o))||c.enumerable});return t};var i=t=>y(p({},"__esModule",{value:!0}),t);var s={};m(s,{novelStore:()=>l});module.exports=i(s);var n=require("jotai"),l=(0,n.createStore)();0&&(module.exports={novelStore});

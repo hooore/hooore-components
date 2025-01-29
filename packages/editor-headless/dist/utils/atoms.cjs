@@ -1,1 +1,2 @@
-'use strict';var jotai=require('jotai');var r=jotai.atom(""),e=jotai.atom(null);exports.queryAtom=r;exports.rangeAtom=e;
+'use client'
+"use strict";var m=Object.defineProperty;var a=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var c=Object.prototype.hasOwnProperty;var g=(t,o)=>{for(var e in o)m(t,e,{get:o[e],enumerable:!0})},i=(t,o,e,p)=>{if(o&&typeof o=="object"||typeof o=="function")for(let r of l(o))!c.call(t,r)&&r!==e&&m(t,r,{get:()=>o[r],enumerable:!(p=a(o,r))||p.enumerable});return t};var u=t=>i(m({},"__esModule",{value:!0}),t);var x={};g(x,{queryAtom:()=>f,rangeAtom:()=>s});module.exports=u(x);var n=require("jotai"),f=(0,n.atom)(""),s=(0,n.atom)(null);0&&(module.exports={queryAtom,rangeAtom});

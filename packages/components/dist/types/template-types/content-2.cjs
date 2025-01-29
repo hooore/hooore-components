@@ -1,1 +1,2 @@
-'use strict';
+'use client'
+"use strict";var s=Object.defineProperty;var r=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var d=Object.prototype.hasOwnProperty;var l=(e,t,p,o)=>{if(t&&typeof t=="object"||typeof t=="function")for(let n of i(t))!d.call(e,n)&&n!==p&&s(e,n,{get:()=>t[n],enumerable:!(o=r(t,n))||o.enumerable});return e};var C=e=>l(s({},"__esModule",{value:!0}),e);var g={};module.exports=C(g);

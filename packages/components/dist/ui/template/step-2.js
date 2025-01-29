@@ -1,1 +1,2 @@
-export{a as Step2}from'../../chunk-ZVSO2DLQ.js';
+'use client'
+import{a}from"../../chunk-ZVSO2DLQ.js";export{a as Step2};

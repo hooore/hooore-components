@@ -1,1 +1,2 @@
-export{a as Faq4}from'../../chunk-IJ3A3OGW.js';
+'use client'
+import{a}from"../../chunk-IJ3A3OGW.js";export{a as Faq4};

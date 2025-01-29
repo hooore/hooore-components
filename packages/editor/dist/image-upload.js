@@ -1,1 +1,2 @@
-export{a as uploadFn}from'./chunk-VBTKXZBB.js';
+'use client'
+import{a}from"./chunk-VBTKXZBB.js";export{a as uploadFn};

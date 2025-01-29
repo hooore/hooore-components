@@ -1,1 +1,2 @@
-export{a as Pricing1}from'../../chunk-LIG74WJR.js';
+'use client'
+import{a}from"../../chunk-LIG74WJR.js";export{a as Pricing1};

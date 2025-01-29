@@ -1,1 +1,2 @@
-export{a as Contact2}from'../../chunk-HKSXBRTY.js';
+'use client'
+import{a}from"../../chunk-HKSXBRTY.js";export{a as Contact2};

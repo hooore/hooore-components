@@ -1,1 +1,2 @@
-export{a as Newsletter1}from'../../chunk-DI6E7YQV.js';
+'use client'
+import{a}from"../../chunk-DI6E7YQV.js";export{a as Newsletter1};

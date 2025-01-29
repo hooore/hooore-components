@@ -1,1 +1,2 @@
-export{a as Marquee}from'../../chunk-RS72QGI5.js';
+'use client'
+import{a}from"../../chunk-RS72QGI5.js";export{a as Marquee};

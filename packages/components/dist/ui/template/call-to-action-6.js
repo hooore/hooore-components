@@ -1,1 +1,2 @@
-export{a as CallToAction6}from'../../chunk-ILJDJSUM.js';
+'use client'
+import{a}from"../../chunk-ILJDJSUM.js";export{a as CallToAction6};

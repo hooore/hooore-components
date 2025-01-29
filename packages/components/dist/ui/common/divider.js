@@ -1,1 +1,2 @@
-export{a as Divider}from'../../chunk-XQBZZREQ.js';
+'use client'
+import{a}from"../../chunk-XQBZZREQ.js";export{a as Divider};

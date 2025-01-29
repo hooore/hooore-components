@@ -1,1 +1,2 @@
-export{a as Content1}from'../../chunk-HB4KXPUB.js';
+'use client'
+import{a}from"../../chunk-HB4KXPUB.js";export{a as Content1};

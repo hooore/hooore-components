@@ -1,1 +1,2 @@
-import {a}from'./chunk-AVNRNITW.js';var e={slug:"call-to-action-5",component:a};export{e as a};
+'use client'
+import{a as o}from"./chunk-AVNRNITW.js";var e={slug:"call-to-action-5",component:o};export{e as a};

@@ -1,1 +1,2 @@
-export{a as default}from'../chunk-LUDXJPQW.js';
+'use client'
+import{a}from"../chunk-LUDXJPQW.js";export{a as default};

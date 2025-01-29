@@ -1,1 +1,2 @@
-import {a}from'./chunk-6FCZYHOS.js';var l={slug:"gallery-1",component:a};export{l as a};
+'use client'
+import{a as e}from"./chunk-6FCZYHOS.js";var l={slug:"gallery-1",component:e};export{l as a};

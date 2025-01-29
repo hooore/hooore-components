@@ -6,7 +6,6 @@ export default defineConfig((options: Options) => ({
     js: "'use client'",
   },
   minify: true,
-  treeshake: true,
 
   format: ['cjs', 'esm'],
   dts: false,

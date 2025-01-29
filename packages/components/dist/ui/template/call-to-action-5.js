@@ -1,1 +1,2 @@
-export{a as CallToAction5}from'../../chunk-AVNRNITW.js';
+'use client'
+import{a}from"../../chunk-AVNRNITW.js";export{a as CallToAction5};

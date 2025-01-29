@@ -1,1 +1,2 @@
-import {a}from'./chunk-3MKDQ7Z6.js';var o={slug:"hero-5",component:a};export{o as a};
+'use client'
+import{a as e}from"./chunk-3MKDQ7Z6.js";var o={slug:"hero-5",component:e};export{o as a};

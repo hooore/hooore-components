@@ -1,1 +1,2 @@
-'use strict';function e(t){return null}var p={slug:"newsletter-2",component:e};exports.NEWSLETTER_2_META=p;
+'use client'
+"use strict";var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var w=Object.prototype.hasOwnProperty;var i=(t,e)=>{for(var o in e)s(t,o,{get:e[o],enumerable:!0})},N=(t,e,o,p)=>{if(e&&typeof e=="object"||typeof e=="function")for(let r of m(e))!w.call(t,r)&&r!==o&&s(t,r,{get:()=>e[r],enumerable:!(p=l(e,r))||p.enumerable});return t};var y=t=>N(s({},"__esModule",{value:!0}),t);var a={};i(a,{NEWSLETTER_2_META:()=>d});module.exports=y(a);function n(t){let e=t;return null}var d={slug:"newsletter-2",component:n};0&&(module.exports={NEWSLETTER_2_META});

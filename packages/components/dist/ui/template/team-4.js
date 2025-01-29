@@ -1,1 +1,2 @@
-export{a as Team4}from'../../chunk-TYKKQBRO.js';import'../../chunk-VWCUUJGP.js';
+'use client'
+import{a}from"../../chunk-TYKKQBRO.js";import"../../chunk-VWCUUJGP.js";export{a as Team4};

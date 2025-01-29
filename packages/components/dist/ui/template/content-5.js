@@ -1,1 +1,2 @@
-export{a as Content5}from'../../chunk-NOUWIAIA.js';
+'use client'
+import{a}from"../../chunk-NOUWIAIA.js";export{a as Content5};

@@ -1,1 +1,2 @@
-'use strict';function t(o){return null}var p={slug:"contact-2",component:t};exports.CONTACT_2_META=p;
+'use client'
+"use strict";var r=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var s=Object.getOwnPropertyNames;var m=Object.prototype.hasOwnProperty;var C=(o,t)=>{for(var n in t)r(o,n,{get:t[n],enumerable:!0})},l=(o,t,n,p)=>{if(t&&typeof t=="object"||typeof t=="function")for(let e of s(t))!m.call(o,e)&&e!==n&&r(o,e,{get:()=>t[e],enumerable:!(p=c(t,e))||p.enumerable});return o};var i=o=>l(r({},"__esModule",{value:!0}),o);var d={};C(d,{CONTACT_2_META:()=>y});module.exports=i(d);function a(o){let t=o;return null}var y={slug:"contact-2",component:a};0&&(module.exports={CONTACT_2_META});

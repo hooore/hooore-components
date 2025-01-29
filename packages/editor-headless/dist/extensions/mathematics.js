@@ -1,1 +1,2 @@
-export{a as Mathematics}from'../chunk-SRZFDMR7.js';
+'use client'
+import{a}from"../chunk-SRZFDMR7.js";export{a as Mathematics};

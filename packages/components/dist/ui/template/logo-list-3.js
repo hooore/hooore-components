@@ -1,1 +1,2 @@
-export{a as LogoList3}from'../../chunk-LBFOF52N.js';
+'use client'
+import{a}from"../../chunk-LBFOF52N.js";export{a as LogoList3};

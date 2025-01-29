@@ -1,1 +1,2 @@
-import {a}from'./chunk-OMXZ5DK6.js';var o={slug:"testimonials-4",component:a};export{o as a};
+'use client'
+import{a as e}from"./chunk-OMXZ5DK6.js";var o={slug:"testimonials-4",component:e};export{o as a};

@@ -1,1 +1,2 @@
-export{a as Gallery3}from'../../chunk-KO4VQXLB.js';
+'use client'
+import{a}from"../../chunk-KO4VQXLB.js";export{a as Gallery3};

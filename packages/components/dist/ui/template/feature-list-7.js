@@ -1,1 +1,2 @@
-export{a as FeaturesList7}from'../../chunk-PF5NKGCX.js';
+'use client'
+import{a}from"../../chunk-PF5NKGCX.js";export{a as FeaturesList7};

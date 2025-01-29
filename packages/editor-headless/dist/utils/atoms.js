@@ -1,1 +1,2 @@
-export{a as queryAtom,b as rangeAtom}from'../chunk-SM4SOJMX.js';
+'use client'
+import{a,b}from"../chunk-SM4SOJMX.js";export{a as queryAtom,b as rangeAtom};

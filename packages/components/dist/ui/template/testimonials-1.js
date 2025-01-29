@@ -1,1 +1,2 @@
-export{a as Testimonials1}from'../../chunk-WPZOTJ76.js';
+'use client'
+import{a}from"../../chunk-WPZOTJ76.js";export{a as Testimonials1};
