@@ -1,2 +1,2 @@
 'use client'
-import{a}from"../../chunk-BAXFXADG.js";export{a as Faq2};
+import{a}from"../../chunk-JECDJILG.js";export{a as Faq2};

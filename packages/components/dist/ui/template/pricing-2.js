@@ -1,2 +1,2 @@
 'use client'
-import{a}from"../../chunk-GFQ773IT.js";export{a as Pricing2};
+import{a}from"../../chunk-WS4NQAD5.js";export{a as Pricing2};

@@ -1,2 +1,0 @@
-'use client'
-"use strict";var s=Object.defineProperty;var n=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var i=Object.prototype.hasOwnProperty;var a=(t,e)=>{for(var o in e)s(t,o,{get:e[o],enumerable:!0})},w=(t,e,o,l)=>{if(e&&typeof e=="object"||typeof e=="function")for(let r of p(e))!i.call(t,r)&&r!==o&&s(t,r,{get:()=>e[r],enumerable:!(l=n(e,r))||l.enumerable});return t};var N=t=>w(s({},"__esModule",{value:!0}),t);var d={};a(d,{Newsletter1:()=>b});module.exports=N(d);function b(t){let e=t;return null}0&&(module.exports={Newsletter1});

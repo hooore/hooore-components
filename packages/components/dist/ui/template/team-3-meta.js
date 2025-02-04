@@ -1,2 +1,2 @@
 'use client'
-import{a}from"../../chunk-RI3PHZFB.js";import"../../chunk-OKWZOC6L.js";export{a as TEAM_3_META};
+import{a}from"../../chunk-TU7TPZMX.js";import"../../chunk-4ZCZXZNB.js";export{a as TEAM_3_META};

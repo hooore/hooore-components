@@ -1,7 +1,4 @@
 import type { Collections1Props } from '../../types/template-types/collections-1';
-export type Collections1RendererProps = Collections1Props & {
-    disableAnimation?: boolean;
-    disableLink?: boolean;
-    logo?: string;
-};
+import type { AdditionalPageRendererComponentProps } from '../types';
+export type Collections1RendererProps = Collections1Props & AdditionalPageRendererComponentProps;
 export declare function Collections1(props: Collections1RendererProps): import("react/jsx-runtime").JSX.Element;

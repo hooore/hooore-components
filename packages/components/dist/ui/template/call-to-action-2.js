@@ -1,2 +1,2 @@
 'use client'
-import{a}from"../../chunk-A7Q4K5VK.js";export{a as CallToAction2};
+import{a}from"../../chunk-EBFVQXUT.js";export{a as CallToAction2};

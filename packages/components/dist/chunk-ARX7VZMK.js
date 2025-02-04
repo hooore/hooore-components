@@ -1,0 +1,2 @@
+'use client'
+import{a as o}from"./chunk-RS72QGI5.js";import{jsx as e}from"react/jsx-runtime";function a(t){let{images:p,disableAnimation:s=!1}=t;return e("section",{className:"pc-h-[150px] pc-py-6",children:e(o,{width:"350px",disabled:s,children:(p||[]).map((i,r)=>e("div",{className:"pc-flex pc-h-full pc-items-center pc-justify-center",children:e("img",{src:i?.image,loading:"lazy",className:"pc-h-full pc-object-contain"})},r))})})}export{a};

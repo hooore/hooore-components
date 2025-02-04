@@ -1,2 +1,2 @@
 'use client'
-import{a}from"../../chunk-S7U62FGR.js";export{a as Testimonials3};
+import{a}from"../../chunk-OWQ63JYT.js";export{a as Testimonials3};

@@ -1,2 +1,0 @@
-'use client'
-import{a as s}from"./chunk-JAUF7XSG.js";import{jsx as e}from"react/jsx-runtime";function c(r){let{background:a,images:t,features:p}=r;return e("section",{className:"pc-px-4 pc-py-10 sm:pc-px-20 sm:pc-py-20",children:e(s,{image:a,features:p,direction:"horizontal",footer:t&&e("div",{className:"pc-flex pc-flex-wrap pc-justify-center pc-gap-6 sm:pc-justify-start",children:t.map((i,o)=>e("img",{src:i?.image,loading:"lazy"},o))})})})}export{c as a};
