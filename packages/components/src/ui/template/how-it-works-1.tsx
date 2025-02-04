@@ -6,6 +6,7 @@ import type {
 import { Divider } from '../common/divider'
 
 import { cn } from '@hooore/utils'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
 export function HowItWorksStep(
   props: HowItWorksStepProps & { number?: number },
@@ -51,11 +52,8 @@ export function HowItWorksStep(
   )
 }
 
-export type HowItWorks1RendererProps = HowItWorks1Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type HowItWorks1RendererProps = HowItWorks1Props &
+  AdditionalPageRendererComponentProps
 
 export function HowItWorks1(props: HowItWorks1RendererProps) {
   const { step } = props

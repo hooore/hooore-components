@@ -1,5 +1,3 @@
-import type { PageContentComponentSlug } from '../types/page-content'
-import type { ComponentRenderer, PageRendererComponentProps } from './types'
 import { BLOG_1_META } from './template/blog-1-meta'
 import { BLOG_2_META } from './template/blog-2-meta'
 import { BLOG_3_META } from './template/blog-3-meta'
@@ -12,8 +10,6 @@ import { CALL_TO_ACTION_6_META } from './template/call-to-action-6-meta'
 import { COLLECTIONS_1_META } from './template/collections-1-meta'
 import { COLLECTIONS_2_META } from './template/collections-2-meta'
 import { COLLECTIONS_3_META } from './template/collections-3-meta'
-import { CONTACT_1_META } from './template/contact-1-meta'
-import { CONTACT_2_META } from './template/contact-2-meta'
 import { CONTENT_1_META } from './template/content-1-meta'
 import { CONTENT_2_META } from './template/content-2-meta'
 import { CONTENT_3_META } from './template/content-3-meta'
@@ -51,8 +47,6 @@ import { LOGO_LIST_2_META } from './template/logo-list-2-meta'
 import { LOGO_LIST_3_META } from './template/logo-list-3-meta'
 import { LOGO_LIST_4_META } from './template/logo-list-4-meta'
 import { NAVBAR_1_META } from './template/navbar-1-meta'
-import { NEWSLETTER_1_META } from './template/newsletter-1-meta'
-import { NEWSLETTER_2_META } from './template/newsletter-2-meta'
 import { PRICING_1_META } from './template/pricing-1-meta'
 import { PRICING_2_META } from './template/pricing-2-meta'
 import { PRICING_3_META } from './template/pricing-3-meta'
@@ -84,8 +78,6 @@ export const COMPONENTS = [
   COLLECTIONS_1_META,
   COLLECTIONS_2_META,
   COLLECTIONS_3_META,
-  CONTACT_1_META,
-  CONTACT_2_META,
   CONTENT_1_META,
   CONTENT_2_META,
   CONTENT_3_META,
@@ -123,8 +115,6 @@ export const COMPONENTS = [
   LOGO_LIST_3_META,
   LOGO_LIST_4_META,
   NAVBAR_1_META,
-  NEWSLETTER_1_META,
-  NEWSLETTER_2_META,
   PRICING_1_META,
   PRICING_2_META,
   PRICING_3_META,
@@ -142,7 +132,4 @@ export const COMPONENTS = [
   TESTIMONIALS_2_META,
   TESTIMONIALS_3_META,
   TESTIMONIALS_4_META,
-] satisfies ComponentRenderer<
-  PageContentComponentSlug,
-  PageRendererComponentProps
->[]
+] as const

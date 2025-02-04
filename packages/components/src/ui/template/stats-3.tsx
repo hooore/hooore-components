@@ -1,10 +1,8 @@
 import type { Stats3Props } from '../../types/template-types/stats-3'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Stats3RendererProps = Stats3Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Stats3RendererProps = Stats3Props &
+  AdditionalPageRendererComponentProps
 
 export function Stats3(props: Stats3RendererProps) {
   const { headline, description, image, stats = [] } = props

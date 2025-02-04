@@ -1,10 +1,8 @@
 import type { Collections3Props } from '../../types/template-types/collections-3'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Collections3RendererProps = Collections3Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Collections3RendererProps = Collections3Props &
+  AdditionalPageRendererComponentProps
 
 export function Collections3(props: Collections3RendererProps) {
   const { headline, collections, disableLink } = props

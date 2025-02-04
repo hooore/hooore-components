@@ -1,11 +1,11 @@
 import type { Hero3Props, Hero3Slug } from '../../types/template-types/hero-3'
-import type { ComponentRenderer } from '../types'
+import type {
+  AdditionalPageRendererComponentProps,
+  ComponentRenderer,
+} from '../types'
 
-export type Hero3RendererProps = Hero3Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Hero3RendererProps = Hero3Props &
+  AdditionalPageRendererComponentProps
 
 export function Hero3(props: Hero3RendererProps) {
   const {

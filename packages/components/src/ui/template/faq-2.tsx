@@ -1,10 +1,7 @@
 import type { Faq2Props } from '../../types/template-types/faq-2'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Faq2RendererProps = Faq2Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Faq2RendererProps = Faq2Props & AdditionalPageRendererComponentProps
 
 export function Faq2(props: Faq2RendererProps) {
   const { caption, faq, headline } = props

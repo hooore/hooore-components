@@ -7,12 +7,9 @@ import {
 } from '../common/accordion'
 import { AutoLinkSentence } from '../common/auto-link-senctence'
 import { Chip } from '../common/chip'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Faq1RendererProps = Faq1Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Faq1RendererProps = Faq1Props & AdditionalPageRendererComponentProps
 
 export function Faq1(props: Faq1RendererProps) {
   const { caption, faq, headline, tag } = props

@@ -1,10 +1,8 @@
 import type { Content1Props } from '../../types/template-types/content-1'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Content1RendererProps = Content1Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Content1RendererProps = Content1Props &
+  AdditionalPageRendererComponentProps
 
 export function Content1(props: Content1RendererProps) {
   const { description, headline } = props

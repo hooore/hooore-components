@@ -1,10 +1,8 @@
 import type { Testimonials3Props } from '../../types/template-types/testimonials-3'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Testimonials3RendererProps = Testimonials3Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Testimonials3RendererProps = Testimonials3Props &
+  AdditionalPageRendererComponentProps
 
 export function Testimonials3(props: Testimonials3RendererProps) {
   const { headline, testimonials } = props

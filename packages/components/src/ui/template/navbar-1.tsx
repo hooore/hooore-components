@@ -12,6 +12,7 @@ import type {
   NavbarItemProps,
 } from '../../types/template-types/navbar-1'
 import { Button, type ButtonProps } from '../common/button'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
 export type NavButtonProps = ButtonProps & {
   isActive?: boolean
@@ -126,14 +127,11 @@ function NavBarDropdown(
   )
 }
 
-export type Navbar1RendererProps = Navbar1Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Navbar1RendererProps = Navbar1Props &
+  AdditionalPageRendererComponentProps
 
 export function Navbar1(props: Navbar1RendererProps) {
-  const { logo, link, disableLink = false } = props
+  const { projectLogo, link, disableLink = false } = props
   const [isOpen, setIsOpen] = useState(false)
   const [pathname, setPathname] = useState<string | undefined>()
 
@@ -171,9 +169,13 @@ export function Navbar1(props: Navbar1RendererProps) {
               : 'pc-w-[calc(100vw-2*1rem)] pc-rounded-full pc-border-transparent pc-bg-[rgb(var(--foreground))]/50 pc-px-4 pc-shadow-[0_0_4px_rgba(0,0,0,0.08)] pc-backdrop-blur',
           )}
         >
-          {logo && (
+          {projectLogo && (
             // eslint-disable-next-line jsx-a11y/alt-text
-            <img loading="lazy" src={logo} className="pc-h-1/2 sm:pc-h-full" />
+            <img
+              loading="lazy"
+              src={projectLogo}
+              className="pc-h-1/2 sm:pc-h-full"
+            />
           )}
           <Button
             onClick={toggleOpen}

@@ -1,10 +1,8 @@
 import type { Content7Props } from '../../types/template-types/content-7'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Content7RendererProps = Content7Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Content7RendererProps = Content7Props &
+  AdditionalPageRendererComponentProps
 
 export function Content7(props: Content7RendererProps) {
   const {

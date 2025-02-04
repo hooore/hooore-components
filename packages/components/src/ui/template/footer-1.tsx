@@ -2,22 +2,20 @@ import { cn } from '@hooore/utils'
 import { Icon } from '@iconify/react'
 import type { Footer1Props } from '../../types/template-types/footer-1'
 import { Button } from '../common/button'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
 const linksClassName =
   'pc-flex pc-w-full pc-flex-wrap pc-items-center pc-justify-center pc-gap-x-6 sm:pc-justify-start'
 
-export type Footer1RendererProps = Footer1Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Footer1RendererProps = Footer1Props &
+  AdditionalPageRendererComponentProps
 
 export function Footer1(props: Footer1RendererProps) {
   const {
     link,
     additional_link,
     socials,
-    logo,
+    projectLogo,
     copyright,
     disableLink = false,
   } = props
@@ -69,10 +67,10 @@ export function Footer1(props: Footer1RendererProps) {
             </div>
           )}
         </div>
-        {logo && (
+        {projectLogo && (
           // eslint-disable-next-line jsx-a11y/alt-text
           <img
-            src={logo}
+            src={projectLogo}
             loading="lazy"
             className="pc-max-h-28 pc-w-full pc-max-w-28 sm:pc-max-h-32 sm:pc-max-w-32"
           />

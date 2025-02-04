@@ -1,10 +1,8 @@
 import type { Collections1Props } from '../../types/template-types/collections-1'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Collections1RendererProps = Collections1Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Collections1RendererProps = Collections1Props &
+  AdditionalPageRendererComponentProps
 
 export function Collections1(props: Collections1RendererProps) {
   const { headline, cta_button_label, cta_link, collections, disableLink } =

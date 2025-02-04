@@ -1,11 +1,9 @@
 import { Icon } from '@iconify/react'
 import type { Team1Props } from '../../types/template-types/team-1'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Team1RendererProps = Team1Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Team1RendererProps = Team1Props &
+  AdditionalPageRendererComponentProps
 
 export function Team1(props: Team1RendererProps) {
   const { headline, description, teams, disableLink } = props

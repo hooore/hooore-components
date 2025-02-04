@@ -1,10 +1,8 @@
 import type { FeaturesList5Props } from '../../types/template-types/features-list-5'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type FeaturesList5RendererProps = FeaturesList5Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type FeaturesList5RendererProps = FeaturesList5Props &
+  AdditionalPageRendererComponentProps
 
 export function FeaturesList5(props: FeaturesList5RendererProps) {
   const {

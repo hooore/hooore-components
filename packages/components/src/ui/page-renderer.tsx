@@ -1,6 +1,6 @@
 import type { PageContent } from '../types/page-content'
-import type { PageRendererComponentProps } from './types'
 import { COMPONENTS } from './page-renderer-components'
+import type { PageRendererComponentProps } from './types'
 
 export function PageRendererComponent(props: PageRendererComponentProps) {
   const componentObject = COMPONENTS.find((component) => {
@@ -15,10 +15,10 @@ export function PageRendererComponent(props: PageRendererComponentProps) {
 
   return (
     <Component
-      {...props.content}
+      {...props.component}
       disableAnimation={props.disableAnimation}
       disableLink={props.disableLink}
-      logo={props.projectLogo}
+      projectLogo={props.projectLogo}
     />
   )
 }

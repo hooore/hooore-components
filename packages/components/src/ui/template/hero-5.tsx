@@ -1,12 +1,12 @@
 import { Icon } from '@iconify/react'
 import type { Hero5Props, Hero5Slug } from '../../types/template-types/hero-5'
-import type { ComponentRenderer } from '../types'
+import type {
+  AdditionalPageRendererComponentProps,
+  ComponentRenderer,
+} from '../types'
 
-export type Hero5RendererProps = Hero5Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Hero5RendererProps = Hero5Props &
+  AdditionalPageRendererComponentProps
 
 export function Hero5(props: Hero5RendererProps) {
   const {

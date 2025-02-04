@@ -2,6 +2,7 @@ import type {
   Pricing2Props,
   PricingCardList2Props,
 } from '../../types/template-types/pricing-2'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
 function RenderFeatureList(props: { list?: PricingCardList2Props[] }) {
   const { list } = props
@@ -28,11 +29,8 @@ function RenderFeatureList(props: { list?: PricingCardList2Props[] }) {
   )
 }
 
-export type Pricing2RendererProps = Pricing2Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Pricing2RendererProps = Pricing2Props &
+  AdditionalPageRendererComponentProps
 
 export function Pricing2(props: Pricing2RendererProps) {
   const {

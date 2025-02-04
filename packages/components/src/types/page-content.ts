@@ -37,8 +37,6 @@ import type {
   Collections3Props,
   Collections3Slug,
 } from './template-types/collections-3'
-import type { Contact1Props, Contact1Slug } from './template-types/contact-1'
-import type { Contact2Props, Contact2Slug } from './template-types/contact-2'
 import type { Content1Props, Content1Slug } from './template-types/content-1'
 import type { Content2Props, Content2Slug } from './template-types/content-2'
 import type { Content3Props, Content3Slug } from './template-types/content-3'
@@ -112,14 +110,6 @@ import type {
   LogoList4Slug,
 } from './template-types/logo-list-4'
 import type { Navbar1Props, Navbar1Slug } from './template-types/navbar-1'
-import type {
-  Newsletter1Props,
-  Newsletter1Slug,
-} from './template-types/newsletter-1'
-import type {
-  Newsletter2Props,
-  Newsletter2Slug,
-} from './template-types/newsletter-2'
 import type { Pricing1Props, Pricing1Slug } from './template-types/pricing-1'
 import type { Pricing2Props, Pricing2Slug } from './template-types/pricing-2'
 import type { Pricing3Props, Pricing3Slug } from './template-types/pricing-3'
@@ -152,352 +142,332 @@ import type {
 
 export type Blog1Component = {
   slug: Blog1Slug
-  content: Blog1Props
+  component: Blog1Props
 }
 
 export type Blog2Component = {
   slug: Blog2Slug
-  content: Blog2Props
+  component: Blog2Props
 }
 
 export type Blog3Component = {
   slug: Blog3Slug
-  content: Blog3Props
+  component: Blog3Props
 }
 
 export type CallToAction1Component = {
   slug: CallToAction1Slug
-  content: CallToAction1Props
+  component: CallToAction1Props
 }
 
 export type CallToAction2Component = {
   slug: CallToAction2Slug
-  content: CallToAction2Props
+  component: CallToAction2Props
 }
 
 export type CallToAction3Component = {
   slug: CallToAction3Slug
-  content: CallToAction3Props
+  component: CallToAction3Props
 }
 
 export type CallToAction4Component = {
   slug: CallToAction4Slug
-  content: CallToAction4Props
+  component: CallToAction4Props
 }
 
 export type CallToAction5Component = {
   slug: CallToAction5Slug
-  content: CallToAction5Props
+  component: CallToAction5Props
 }
 
 export type CallToAction6Component = {
   slug: CallToAction6Slug
-  content: CallToAction6Props
+  component: CallToAction6Props
 }
 
 export type Collections1Component = {
   slug: Collections1Slug
-  content: Collections1Props
+  component: Collections1Props
 }
 
 export type Collections2Component = {
   slug: Collections2Slug
-  content: Collections2Props
+  component: Collections2Props
 }
 
 export type Collections3Component = {
   slug: Collections3Slug
-  content: Collections3Props
-}
-
-export type Contact1Component = {
-  slug: Contact1Slug
-  content: Contact1Props
-}
-
-export type Contact2Component = {
-  slug: Contact2Slug
-  content: Contact2Props
+  component: Collections3Props
 }
 
 export type Content1Component = {
   slug: Content1Slug
-  content: Content1Props
+  component: Content1Props
 }
 
 export type Content2Component = {
   slug: Content2Slug
-  content: Content2Props
+  component: Content2Props
 }
 
 export type Content3Component = {
   slug: Content3Slug
-  content: Content3Props
+  component: Content3Props
 }
 
 export type Content4Component = {
   slug: Content4Slug
-  content: Content4Props
+  component: Content4Props
 }
 
 export type Content5Component = {
   slug: Content5Slug
-  content: Content5Props
+  component: Content5Props
 }
 
 export type Content6Component = {
   slug: Content6Slug
-  content: Content6Props
+  component: Content6Props
 }
 
 export type Content7Component = {
   slug: Content7Slug
-  content: Content7Props
+  component: Content7Props
 }
 
 export type Faq1Component = {
   slug: Faq1Slug
-  content: Faq1Props
+  component: Faq1Props
 }
 
 export type Faq2Component = {
   slug: Faq2Slug
-  content: Faq2Props
+  component: Faq2Props
 }
 
 export type Faq3Component = {
   slug: Faq3Slug
-  content: Faq3Props
+  component: Faq3Props
 }
 
 export type Faq4Component = {
   slug: Faq4Slug
-  content: Faq4Props
+  component: Faq4Props
 }
 
 export type FeaturesList1Component = {
   slug: FeaturesList1Slug
-  content: FeaturesList1Props
+  component: FeaturesList1Props
 }
 
 export type FeaturesList2Component = {
   slug: FeaturesList2Slug
-  content: FeaturesList2Props
+  component: FeaturesList2Props
 }
 
 export type FeaturesList3Component = {
   slug: FeaturesList3Slug
-  content: FeaturesList3Props
+  component: FeaturesList3Props
 }
 
 export type FeaturesList4Component = {
   slug: FeaturesList4Slug
-  content: FeaturesList4Props
+  component: FeaturesList4Props
 }
 
 export type FeaturesList5Component = {
   slug: FeaturesList5Slug
-  content: FeaturesList5Props
+  component: FeaturesList5Props
 }
 
 export type FeaturesList6Component = {
   slug: FeaturesList6Slug
-  content: FeaturesList6Props
+  component: FeaturesList6Props
 }
 
 export type FeaturesList7Component = {
   slug: FeaturesList7Slug
-  content: FeaturesList7Props
+  component: FeaturesList7Props
 }
 
 export type Footer1Component = {
   slug: Footer1Slug
-  content: Footer1Props
+  component: Footer1Props
 }
 
 export type Footer2Component = {
   slug: Footer2Slug
-  content: Footer2Props
+  component: Footer2Props
 }
 
 export type Footer3Component = {
   slug: Footer3Slug
-  content: Footer3Props
+  component: Footer3Props
 }
 
 export type Footer4Component = {
   slug: Footer4Slug
-  content: Footer4Props
+  component: Footer4Props
 }
 
 export type Gallery1Component = {
   slug: Gallery1Slug
-  content: Gallery1Props
+  component: Gallery1Props
 }
 
 export type Gallery2Component = {
   slug: Gallery2Slug
-  content: Gallery2Props
+  component: Gallery2Props
 }
 
 export type Gallery3Component = {
   slug: Gallery3Slug
-  content: Gallery3Props
+  component: Gallery3Props
 }
 
 export type Hero1Component = {
   slug: Hero1Slug
-  content: Hero1Props
+  component: Hero1Props
 }
 
 export type Hero2Component = {
   slug: Hero2Slug
-  content: Hero2Props
+  component: Hero2Props
 }
 
 export type Hero3Component = {
   slug: Hero3Slug
-  content: Hero3Props
+  component: Hero3Props
 }
 
 export type Hero4Component = {
   slug: Hero4Slug
-  content: Hero4Props
+  component: Hero4Props
 }
 
 export type Hero5Component = {
   slug: Hero5Slug
-  content: Hero5Props
+  component: Hero5Props
 }
 
 export type Hero6Component = {
   slug: Hero6Slug
-  content: Hero6Props
+  component: Hero6Props
 }
 
 export type HowItWorks1Component = {
   slug: HowItWorks1Slug
-  content: HowItWorks1Props
+  component: HowItWorks1Props
 }
 
 export type LogoList1Component = {
   slug: LogoList1Slug
-  content: LogoList1Props
+  component: LogoList1Props
 }
 
 export type LogoList2Component = {
   slug: LogoList2Slug
-  content: LogoList2Props
+  component: LogoList2Props
 }
 
 export type LogoList3Component = {
   slug: LogoList3Slug
-  content: LogoList3Props
+  component: LogoList3Props
 }
 
 export type LogoList4Component = {
   slug: LogoList4Slug
-  content: LogoList4Props
+  component: LogoList4Props
 }
 
 export type Navbar1Component = {
   slug: Navbar1Slug
-  content: Navbar1Props
-}
-
-export type Newsletter1Component = {
-  slug: Newsletter1Slug
-  content: Newsletter1Props
-}
-
-export type Newsletter2Component = {
-  slug: Newsletter2Slug
-  content: Newsletter2Props
+  component: Navbar1Props
 }
 
 export type Pricing1Component = {
   slug: Pricing1Slug
-  content: Pricing1Props
+  component: Pricing1Props
 }
 
 export type Pricing2Component = {
   slug: Pricing2Slug
-  content: Pricing2Props
+  component: Pricing2Props
 }
 
 export type Pricing3Component = {
   slug: Pricing3Slug
-  content: Pricing3Props
+  component: Pricing3Props
 }
 
 export type Stats1Component = {
   slug: Stats1Slug
-  content: Stats1Props
+  component: Stats1Props
 }
 
 export type Stats2Component = {
   slug: Stats2Slug
-  content: Stats2Props
+  component: Stats2Props
 }
 
 export type Stats3Component = {
   slug: Stats3Slug
-  content: Stats3Props
+  component: Stats3Props
 }
 
 export type Step1Component = {
   slug: Step1Slug
-  content: Step1Props
+  component: Step1Props
 }
 
 export type Step2Component = {
   slug: Step2Slug
-  content: Step2Props
+  component: Step2Props
 }
 
 export type Step3Component = {
   slug: Step3Slug
-  content: Step3Props
+  component: Step3Props
 }
 
 export type Team1Component = {
   slug: Team1Slug
-  content: Team1Props
+  component: Team1Props
 }
 
 export type Team2Component = {
   slug: Team2Slug
-  content: Team2Props
+  component: Team2Props
 }
 
 export type Team3Component = {
   slug: Team3Slug
-  content: Team3Props
+  component: Team3Props
 }
 
 export type Team4Component = {
   slug: Team4Slug
-  content: Team4Props
+  component: Team4Props
 }
 
 export type Testimonials1Component = {
   slug: Testimonials1Slug
-  content: Testimonials1Props
+  component: Testimonials1Props
 }
 
 export type Testimonials2Component = {
   slug: Testimonials2Slug
-  content: Testimonials2Props
+  component: Testimonials2Props
 }
 
 export type Testimonials3Component = {
   slug: Testimonials3Slug
-  content: Testimonials3Props
+  component: Testimonials3Props
 }
 
 export type Testimonials4Component = {
   slug: Testimonials4Slug
-  content: Testimonials4Props
+  component: Testimonials4Props
 }
 
 export type PageContentComponentProps =
@@ -513,8 +483,6 @@ export type PageContentComponentProps =
   | Collections1Component
   | Collections2Component
   | Collections3Component
-  | Contact1Component
-  | Contact2Component
   | Content1Component
   | Content2Component
   | Content3Component
@@ -552,8 +520,6 @@ export type PageContentComponentProps =
   | LogoList3Component
   | LogoList4Component
   | Navbar1Component
-  | Newsletter1Component
-  | Newsletter2Component
   | Pricing1Component
   | Pricing2Component
   | Pricing3Component
@@ -573,6 +539,7 @@ export type PageContentComponentProps =
   | Testimonials4Component
 
 export type PageContentComponentSlug = PageContentComponentProps['slug']
-export type PageContentComponentContent = PageContentComponentProps['content']
+export type PageContentComponentComponent =
+  PageContentComponentProps['component']
 
 export type PageContent = { id: string } & PageContentComponentProps

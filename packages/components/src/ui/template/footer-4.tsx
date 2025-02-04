@@ -1,11 +1,9 @@
 import { Icon } from '@iconify/react'
 import type { Footer4Props } from '../../types/template-types/footer-4'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Footer4RendererProps = Footer4Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Footer4RendererProps = Footer4Props &
+  AdditionalPageRendererComponentProps
 
 export function Footer4(props: Footer4RendererProps) {
   const { image, description, links, socials, disableLink } = props

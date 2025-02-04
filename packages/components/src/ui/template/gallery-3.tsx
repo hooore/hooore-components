@@ -1,10 +1,8 @@
 import type { Gallery3Props } from '../../types/template-types/gallery-3'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Gallery3RendererProps = Gallery3Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Gallery3RendererProps = Gallery3Props &
+  AdditionalPageRendererComponentProps
 
 export function Gallery3(props: Gallery3RendererProps) {
   const {

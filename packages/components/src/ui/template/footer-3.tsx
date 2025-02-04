@@ -1,11 +1,9 @@
 import { Icon } from '@iconify/react'
 import type { Footer3Props } from '../../types/template-types/footer-3'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Footer3RendererProps = Footer3Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Footer3RendererProps = Footer3Props &
+  AdditionalPageRendererComponentProps
 
 export function Footer3(props: Footer3RendererProps) {
   const { disableLink, links, socials, copyright } = props

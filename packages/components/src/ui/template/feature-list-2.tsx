@@ -1,12 +1,10 @@
 import type { FeaturesList2Props } from '../../types/template-types/features-list-2'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
 import { FeatureItem } from './feature-list-1'
 
-export type FeaturesList2RendererProps = FeaturesList2Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type FeaturesList2RendererProps = FeaturesList2Props &
+  AdditionalPageRendererComponentProps
 
 export function FeaturesList2(props: FeaturesList2RendererProps) {
   const { background, images, features } = props

@@ -1,11 +1,9 @@
 import { Icon } from '@iconify/react'
 import type { FeaturesList4Props } from '../../types/template-types/features-list-4'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type FeaturesList4RendererProps = FeaturesList4Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type FeaturesList4RendererProps = FeaturesList4Props &
+  AdditionalPageRendererComponentProps
 
 export function FeaturesList4(props: FeaturesList4RendererProps) {
   const { headline, description, features, disableLink = false } = props

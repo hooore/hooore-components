@@ -1,10 +1,8 @@
 import type { LogoList3Props } from '../../types/template-types/logo-list-3'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type LogoList3RendererProps = LogoList3Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type LogoList3RendererProps = LogoList3Props &
+  AdditionalPageRendererComponentProps
 
 export function LogoList3(props: LogoList3RendererProps) {
   const { description, images } = props

@@ -1,11 +1,9 @@
 import { Fragment } from 'react'
 import type { Content4Props } from '../../types/template-types/content-4'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Content4RendererProps = Content4Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Content4RendererProps = Content4Props &
+  AdditionalPageRendererComponentProps
 
 export function Content4(props: Content4RendererProps) {
   const { image, headline, sub_headline, description, items } = props

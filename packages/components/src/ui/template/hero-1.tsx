@@ -1,12 +1,10 @@
 import { Icon } from '@iconify/react'
 import type { Hero1Props } from '../../types/template-types/hero-1'
 import { Chip } from '../common/chip'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Hero1RendererProps = Hero1Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Hero1RendererProps = Hero1Props &
+  AdditionalPageRendererComponentProps
 
 export function Hero1(props: Hero1RendererProps) {
   const {

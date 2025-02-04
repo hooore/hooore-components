@@ -2,12 +2,10 @@
 
 import { useRef, useState } from 'react'
 import type { Testimonials2Props } from '../../types/template-types/testimonials-2'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Testimonials2RendererProps = Testimonials2Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Testimonials2RendererProps = Testimonials2Props &
+  AdditionalPageRendererComponentProps
 
 export function Testimonials2(props: Testimonials2RendererProps) {
   const { headline, description, testimonials = [] } = props

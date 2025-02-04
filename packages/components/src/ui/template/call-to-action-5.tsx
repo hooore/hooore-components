@@ -1,10 +1,8 @@
 import type { CallToAction5Props } from '../../types/template-types/call-to-action-5'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type CallToAction5RendererProps = CallToAction5Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type CallToAction5RendererProps = CallToAction5Props &
+  AdditionalPageRendererComponentProps
 
 export function CallToAction5(props: CallToAction5RendererProps) {
   const {

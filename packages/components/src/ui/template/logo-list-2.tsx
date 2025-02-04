@@ -1,10 +1,8 @@
 import type { LogoList2Props } from '../../types/template-types/logo-list-2'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type LogoList2RendererProps = LogoList2Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type LogoList2RendererProps = LogoList2Props &
+  AdditionalPageRendererComponentProps
 
 export function LogoList2(props: LogoList2RendererProps) {
   const { description, cta_button_label, cta_link, images, disableLink } = props

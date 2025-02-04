@@ -1,5 +1,5 @@
 import type {
-  FeatureItemProps,
+  FeatureItem1Props,
   FeaturesList1Props,
 } from '../../types/template-types/features-list-1'
 
@@ -7,9 +7,10 @@ import { cn } from '@hooore/utils'
 import { CheckCircledIcon } from '@radix-ui/react-icons'
 import { Button } from '../common/button'
 import { Chip } from '../common/chip'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
 export function FeatureItem(
-  props: FeatureItemProps & {
+  props: FeatureItem1Props & {
     className?: string
     direction?: 'vertical' | 'horizontal'
     footer?: React.ReactNode
@@ -96,11 +97,8 @@ export function FeatureItem(
   )
 }
 
-export type FeaturesList1RendererProps = FeaturesList1Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type FeaturesList1RendererProps = FeaturesList1Props &
+  AdditionalPageRendererComponentProps
 
 export function FeaturesList1(props: FeaturesList1RendererProps) {
   const { tag, headline, description, features, disableLink = false } = props

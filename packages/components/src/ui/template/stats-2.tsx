@@ -1,10 +1,8 @@
 import type { Stats2Props } from '../../types/template-types/stats-2'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Stats2RendererProps = Stats2Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Stats2RendererProps = Stats2Props &
+  AdditionalPageRendererComponentProps
 
 export function Stats2(props: Stats2RendererProps) {
   const { headline, description, stats = [] } = props

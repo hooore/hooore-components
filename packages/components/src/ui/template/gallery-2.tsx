@@ -1,11 +1,9 @@
 import { cn } from '@hooore/utils'
 import type { Gallery2Props } from '../../types/template-types/gallery-2'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Gallery2RendererProps = Gallery2Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Gallery2RendererProps = Gallery2Props &
+  AdditionalPageRendererComponentProps
 
 export function Gallery2(props: Gallery2RendererProps) {
   const {

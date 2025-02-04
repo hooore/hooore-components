@@ -1,10 +1,8 @@
 import type { Blog2Props } from '../../types/template-types/blog-2'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Blog2RendererProps = Blog2Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Blog2RendererProps = Blog2Props &
+  AdditionalPageRendererComponentProps
 
 export function Blog2(props: Blog2RendererProps) {
   const { headline, description, blog, disableLink } = props

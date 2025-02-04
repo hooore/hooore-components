@@ -7,12 +7,9 @@ import {
   AccordionTrigger,
 } from '../common/accordion'
 import { AutoLinkSentence } from '../common/auto-link-senctence'
+import type { AdditionalPageRendererComponentProps } from '../types'
 
-export type Faq3RendererProps = Faq3Props & {
-  disableAnimation?: boolean
-  disableLink?: boolean
-  logo?: string
-}
+export type Faq3RendererProps = Faq3Props & AdditionalPageRendererComponentProps
 
 export function Faq3(props: Faq3RendererProps) {
   const { caption, faq, headline } = props
